@@ -1,0 +1,80 @@
+"","Group","NumSpp","DiffSum","NumPlots"
+"1","SUBASS PyFd-Pseuspi(Racomit)",96,28.9444444444444,9
+"2","ASSOC FdPy-Physmal-Holodis-Pseuspi",191,44,19
+"3","SUBASS Pseumen-Amelaln-Pseuspi(Junisco)",99,47,13
+"4","SUBASS Fd-Amelaln-Pseuspi(Seladen)",91,42.6666666666667,6
+"5","SUBASS Pseumen-Amelaln-Pseuspi(typic)",97,36.3333333333333,6
+"6","SUBASS FdPy-Pseuspi(Spirbet)",102,38,15
+"7","ASSOC FdPy-Pseuspi-Calarub-Arctuva",108,56.125,8
+"8","ASSOC Pseumen-Pseuspi-Hylospl (cool aspect)",143,26.5454545454545,22
+"9","SUBASS Fd-Junisco-Pseuspi(typic)",173,34.8214285714286,28
+"10","SUBASS Fd-Junisco-Pseuspi (Arctuva)",152,30.2,15
+"11","ASSOC FdPy-Pseuspi-Festcam(Calarub)",125,43.5,12
+"12","ASSOC Fd-Festsxi-Pseuspi(Festcam)",130,33,18
+"13","ASSOC FdCw-Hazelnut (IDFww/CWHxs)",147,40.7931034482759,29
+"14","ASSOC PlFd-Junicom-Acergla (ESSFs xeric)",169,27.6666666666667,15
+"15","ASSOC Pinucon-Abielas-Junicom-Eurycon",152,45.4,20
+"16","ASSOC Pseumen-Abielas-Paximyr-Vaccmem",129,38.9285714285714,14
+"17","ASSOC Pseumen-Abielas-Vaccmem-Pleusch",140,39.1521739130435,23
+"18","ASSOC Pseumen-Calarub (zonal IDF dw)",93,46.1,15
+"19","%ASSOC Pseumen-Physmal-Calarub (Boundary - Physmal)",85,37.2857142857143,7
+"20","%ASSOC Pseumen-Junisco-Calarub",95,53.2857142857143,7
+"21","ASSOC Pseumen-Calarub-Astecon (subboreal)",164,50.0769230769231,13
+"22","SUBASS Fd-Mahoaqu-Calarub (Pinucon)",185,32.475,40
+"23","SUBASS Fd-Mahoaqu-Calarub",158,33.9827586206897,29
+"24","SUBASS Pseumen-Mahoaqu-Calarub(Lw)",147,47.4285714285714,14
+"25","ASSOC FdLw-Sympalb-Calarub(IDFdh)",185,45,20
+"26","ASSOC Pseumen(Pinupon)-Paximyr-Calarub",145,29.0833333333333,12
+"27","SUBASS Fd(Py)-Acerdou-Calarub(Mahoaqu)",211,49.04,25
+"28","SUBASS Fd(Py)-Acerdou-Calarub(Holodic)",155,36.8181818181818,22
+"29","SUBASS Pseumen(Pinupon)-Sympalb-Calarub(Physmal)",176,48.5,16
+"30","SUBASS Fd(Py)-Sympalb-Calarub(Mahoaqu)",204,50.8333333333333,24
+"31","SUBASS Fd(Py)-Calarub(typic)",285,20.0810810810811,74
+"32","SUBASS FdPy-Calarub(Py)",176,32.5263157894737,19
+"33","SUBASS Fd(Py)-Calarub(Pleusch)",236,27.3039215686274,51
+"34","SUBASS Fd-Juniper-Pseuspi (old assoc)",108,67.1428571428571,14
+"35","ASSOC Fd-Calarub-Pseuspi-Arctuva",172,41.6315789473684,19
+"36","SUBASS Fd-Pseuspi-Calarub(Junicom)",216,22.7777777777778,36
+"37","SUBASS FdPy-Calarub-Pseuspi-Arctuva",89,56.6666666666667,6
+"38","SUBASS FdPy-Calarub(Pseuspi)(Arctuva)",114,52.1363636363636,11
+"39","SUBASS FdPy-Calarub(Pseuspi)(typic)",111,35,7
+"40","ASSOC Pseumen-Calarub-Pleusch-Hylospl (Mossy cool aspect)",314,28.5057471264368,87
+"41","ASSOC Fd-Calarub-Pleusch(IDFxm zonal)",155,43.8783783783784,37
+"42","%ASSOC BlFd - Acergla (ESSFs xeric)",141,31.5,6
+"43","ASSOC Pseumen-Acergla-Paximyr",219,34.1063829787234,47
+"44","%ASSOC Pseumen-Acergla-Amelaln",105,35.375,8
+"45","SUBASS Fd-Sympalb-Mahoaqu(Calarub) (IDFxcZonal)",278,28.9307692307692,65
+"46","SUBASS Pseumen-Sympalb-Mahoaqu (Py)",215,29.3846153846154,39
+"47","ASSOC Pseumen-Spirbet-Hylospl (IDFdc)",160,21.7413793103448,29
+"48","%ASSOC Pseumen(Pinucon)-Paximyr-Calarub",93,26.5714285714286,7
+"49","%ASSOC Pseumen-Abielas-Arctuva",77,47.4285714285714,7
+"50","ASSOC Pinucon-Pseumen-Paximyr-Calarub",244,40.6282051282051,78
+"51","SUBASS FdPl-Calarub-Pleusch(Vacccae)",171,65.3243243243243,37
+"52","SUBASS FdPl-Calarub-Pleusch",242,54.5461538461538,130
+"53","SUBASS FdPl-Calarub-Pleusch(Paximyr)",270,38.6165048543689,103
+"54","SUBASS FdPl-Calarub-Pleusch(Arctuva)",130,67.1428571428571,21
+"55","SUBASS FdPl-Calarub-Pleusch (typic)",241,23.19375,80
+"56","SUBASS Fd(Lw)-Calarub-Linnbor(Pleusch) (IDFdm2)",196,35.6290322580645,31
+"57","SUBASS Pseumen(Lariocc)-Calarub(typic)",184,50.2,20
+"58","SUBASS PlFd(Lw)-Calarub(Shepcan)",118,48.8235294117647,17
+"59","SUBASS PlFd(Lw)-Calarub(typic)",108,37.6153846153846,13
+"60","ASSOC Pseumen-Pinucon-Junicom-Calarub",332,32.6279069767442,86
+"61","ASSOC Pseumen(Pinucon)-Calarub-Arctuva",281,27.0555555555556,90
+"62","SUBASS FdLw-Calarub-Arctuva(typic)",259,30.093023255814,43
+"63","SUBASS Fd-Junicom(typic)",130,25.7142857142857,14
+"64","SUBASS Fd-Junicom(Acergla)",143,18.875,16
+"65","SUBASS Fd-Junicom-Arctuva(typic)",179,23.0666666666667,30
+"66","SUBASS FdPl-Junicom-Arctuva(Calarub)",196,29.4444444444444,27
+"67","SUBASS FdPl-Junicom-Arctuva (typic)",248,32.7209302325581,43
+"68","%ASSOC Pseumen-Rosaaci-Acergla-Hylospl",116,77.5625,8
+"69","ASSOC Pseumen-Pinucon-Cladoni",98,61.6666666666667,6
+"70","SUBASS FdPl-Cladoni(typic)",162,54.3181818181818,11
+"71","SUBASS Py-Pseuspi-Festcam(Balssag)",197,34.8974358974359,39
+"72","SUBASS Py-Pseuspi-Festcam(Ericnau)",147,42.6875,16
+"73","SUBASS Py-Pseuspi-Festcam(typic)",205,37.3214285714286,28
+"74","SUBASS PyFd-Pseuspi(Balssag)",266,34.8620689655172,58
+"75","SUBASS Py(Fd)-Pseuspi(Ericnau)",212,29.5967741935484,62
+"76","SUBASS Py-Pseuspi-(Balssag)",170,30.2692307692308,26
+"77","SUBASS Py(Fd)-Pseuspi-Seladen (rocky)",118,24.3,10
+"78","ASSOC Pinupon-Seladen-Lichens",76,27.4444444444444,9
+"79","ASSOC Pinupon(Pseumen)-Purstri-Pseuspi",125,58.4,10
