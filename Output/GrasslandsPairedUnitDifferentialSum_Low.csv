@@ -1,0 +1,53 @@
+"G1","G2","Score"
+"SUBASS Gg21 Achnric-Festsax-Antenar/Cladoni(typic)","ASSOC Gg24 Hespcur-Koelmac/Cladoni",11.125
+"%ASSOC Gg27 Hespcom-Artefri","ASSOC Gg25 Sporcry-Hespcom",13.8125
+"Rt05 SUBASS Artetri-Amelaln-Pseuspi","Rt04 SUBASS Amelaln-Pseuspi",6.73333333333333
+"Rt05 SUBASS Artetri-Amelaln-Pseuspi","Ro04.1 SUBASS Artetri-Seladen-Pseuspi",14.7567567567568
+"Rt05 SUBASS Artetri-Amelaln-Pseuspi","%SUBASS Gs03 Artetri-Pseuspi-Tortula",8.8
+"Rt05 SUBASS Artetri-Amelaln-Pseuspi","SUBASS Gs02 Artetri-Pseuspi-Sporcry",13.8545454545455
+"Rt04 SUBASS Amelaln-Pseuspi","SUBASS Gg01 Pseuspi-Artefri(Typic)",14.6842105263158
+"Rt04 SUBASS Amelaln-Pseuspi","Ro01.2 ASSOC Pseuspi-Tortrua (depauperatum)",12.5208333333333
+"Rt04 SUBASS Amelaln-Pseuspi","Ro01.1 SUBASS Seladen-Pseuspi-Tortrua (typic)",13.5190476190476
+"SUBASS Gg01 Pseuspi-Artefri(Typic)","SUBASSOC Gg04 Pseuspi-Artefri(Cladoni)",6.03
+"SUBASS Gg01 Pseuspi-Artefri(Typic)","SUBASS Gg02 Pseuspi-(Balssag)",9.28377192982456
+"SUBASS Gg01 Pseuspi-Artefri(Typic)","Ro04.1 SUBASS Artetri-Seladen-Pseuspi",13.9189189189189
+"SUBASS Gg01 Pseuspi-Artefri(Typic)","SUBASS Gg04 Pseuspi-Artefri(Poa sec)",0.769230769230769
+"SUBASS Gg01 Pseuspi-Artefri(Typic)","Ro01.1 SUBASS Seladen-Pseuspi-Tortrua (typic)",13.7274436090226
+"SUBASS Gg01 Pseuspi-Artefri(Typic)","Ro04.2 SUBASS Ericnau-Seladen-Pseuspi",14.4681020733652
+"SUBASS Gg01 Pseuspi-Artefri(Typic)","SUBASS Artetri-Pseuspi(BGxh1 zonal Calomac)",10.7543859649123
+"SUBASS Gg01 Pseuspi-Artefri(Typic)","SUBASS Artetri-Pseuspi(BGxh2 zonalEricnau)",11.1481481481481
+"SUBASS Gg01 Pseuspi-Artefri(Typic)","%SUBASS Gs03 Artetri-Pseuspi-Tortula",11.5087719298246
+"SUBASS Gg01 Pseuspi-Artefri(Typic)","ASSOC Ro02 Junisco/Seladen-Pseuspi",12.1337719298246
+"SUBASSOC Gg04 Pseuspi-Artefri(Cladoni)","SUBASS Gg02 Pseuspi-(Balssag)",13.34
+"SUBASSOC Gg04 Pseuspi-Artefri(Cladoni)","SUBASS Gg04 Pseuspi-Artefri(Poa sec)",6.78692307692308
+"SUBASSOC Gg04 Pseuspi-Artefri(Cladoni)","Gg10 SUBASS Festcam-Pseuspi-Achimil-Cladoni",13.165
+"SUBASS Gg02 Pseuspi-(Balssag)","SUBASS Gg04 Pseuspi-Artefri(Poa sec)",13.1807692307692
+"SUBASS Gg02 Pseuspi-(Balssag)","Gg11 SUBASS Festida-Pseuspi",8
+"SUBASS Gg02 Pseuspi-(Balssag)","Gg17 ASSOC Festida-Pseuspi-Erioumb",14.1416666666667
+"Ro04.1 SUBASS Artetri-Seladen-Pseuspi","Ro01.1 SUBASS Seladen-Pseuspi-Tortrua (typic)",11.8648648648649
+"Ro04.1 SUBASS Artetri-Seladen-Pseuspi","Ro04.2 SUBASS Ericnau-Seladen-Pseuspi",6
+"Ro04.1 SUBASS Artetri-Seladen-Pseuspi","ASSOC Gg03 Pseuspi-Seladen",11
+"SUBASS Gg04 Pseuspi-Artefri(Poa sec)","Ro04.2 SUBASS Ericnau-Seladen-Pseuspi",12.5594405594406
+"SUBASS Gg04 Pseuspi-Artefri(Poa sec)","ASSOC Gg03 Pseuspi-Seladen",12.3333333333333
+"SUBASS Gg04 Pseuspi-Artefri(Poa sec)","SUBASS Artetri-Pseuspi(BGxh2 zonalEricnau)",10
+"SUBASS Gg04 Pseuspi-Artefri(Poa sec)","Gg10 SUBASS Festcam-Pseuspi-Achimil-Cladoni",11.5
+"ASSOC Ro03 Purstri/Seladen-Pseuspi","Ro01.1 SUBASS Seladen-Pseuspi-Tortrua (typic)",12.9392857142857
+"Ro01.2 ASSOC Pseuspi-Tortrua (depauperatum)","Ro01.1 SUBASS Seladen-Pseuspi-Tortrua (typic)",3
+"Ro01.2 ASSOC Pseuspi-Tortrua (depauperatum)","Ro04.2 SUBASS Ericnau-Seladen-Pseuspi",10.5954545454545
+"Ro01.1 SUBASS Seladen-Pseuspi-Tortrua (typic)","Ro04.2 SUBASS Ericnau-Seladen-Pseuspi",7.63636363636364
+"Ro01.1 SUBASS Seladen-Pseuspi-Tortrua (typic)","ASSOC Ro02 Junisco/Seladen-Pseuspi",12.5952380952381
+"Ro04.2 SUBASS Ericnau-Seladen-Pseuspi","ASSOC Gg03 Pseuspi-Seladen",8.91666666666667
+"SUBASS Artetri-Pseuspi(BGxh1 zonal Calomac)","SUBASS Artetri-Pseuspi(BGxh2 zonalEricnau)",1.40740740740741
+"SUBASS Artetri-Pseuspi(BGxh1 zonal Calomac)","%SUBASS Gs03 Artetri-Pseuspi-Tortula",3.63636363636364
+"SUBASS Artetri-Pseuspi(BGxh1 zonal Calomac)","SUBASS Gs02 Artetri-Pseuspi-Sporcry",13.0909090909091
+"SUBASS Artetri-Pseuspi(BGxh2 zonalEricnau)","%SUBASS Gs03 Artetri-Pseuspi-Tortula",2.55555555555556
+"SUBASS Artetri-Pseuspi(BGxh2 zonalEricnau)","SUBASS Gs02 Artetri-Pseuspi-Sporcry",12.4713804713805
+"%SUBASS Gs03 Artetri-Pseuspi-Tortula","SUBASS Gs02 Artetri-Pseuspi-Sporcry",9.36363636363636
+"Gg11 SUBASS Festida-Pseuspi","Gg13 SUBASS Festida-Lupiser",6
+"Gg11 SUBASS Festida-Pseuspi","Gg17 ASSOC Festida-Pseuspi-Erioumb",10.6264367816092
+"Gg10 SUBASS Festcam-Pseuspi-Achimil-Cladoni","ASSOC Gg10+12+15 Festcam-(Pseuspi)-Achimil-Cladoni",6.54166666666667
+"Gg14 ASSOC Festida-Erioumb","Gg17 ASSOC Festida-Pseuspi-Erioumb",14.2
+"Ga07 ASSOC Salirub","Ga02.1 SUBASS Puccnua-Hordjub[Puccnua]",11.6031746031746
+"Ga01.1 SUBASS Distspi [typic]","Ga02.1 SUBASS Puccnua-Hordjub[Puccnua]",13.1111111111111
+"Ga01.1 SUBASS Distspi [typic]","Ga02.2 SUBASS Puccnua-Hordjub[Hordjub]",14
+"Ga02.1 SUBASS Puccnua-Hordjub[Puccnua]","Ga02.2 SUBASS Puccnua-Hordjub[Hordjub]",8.11111111111111

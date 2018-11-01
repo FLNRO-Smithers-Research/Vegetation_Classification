@@ -1,0 +1,1137 @@
+
+Call:
+C5.0.formula(formula = SUsumMatrix[, 2] ~ ., data = SUsumMatrix[, -c(1:2)], trials = 3, rules = TRUE, type = "class")
+
+
+C5.0 [Release 2.07 GPL Edition]  	Thu Nov 01 06:33:47 2018
+-------------------------------
+
+Class specified by attribute `outcome'
+
+Read 1089 cases (79 attributes) from undefined.data
+
+-----  Trial 0:  -----
+
+Rules:
+
+Rule 0/1: (165/3, lift 4.6)
+	JUNISCO_MeanCov <= 0.02
+	PICEENG_Constancy > 30.76923
+	PINUCON_MeanCov <= 18.11667
+	POPUTRE_MeanCov <= 0.8717949
+	POPUTRI_MeanCov <= 0.06
+	TAXUBRE_MeanCov <= 0.05
+	THUJPLI_Constancy <= 66.66666
+	->  class ORDER Abielas-Vaccmem (ESSF central concept)  [0.976]
+
+Rule 0/2: (55/1, lift 4.5)
+	ABIELAS_MeanCov > 28.625
+	BETUPAP_Constancy <= 15.625
+	PICESIT_Constancy <= 0
+	PINUCON_Constancy <= 82.35294
+	POPUTRI_MeanCov <= 0.25
+	->  class ORDER Abielas-Vaccmem (ESSF central concept)  [0.965]
+
+Rule 0/3: (184/7, lift 4.5)
+	JUNISCO_MeanCov <= 0.02
+	PICEENG_Constancy > 30.76923
+	PINUCON_MeanCov <= 28.025
+	POPUTRE_MeanCov <= 0.8717949
+	PSEUMEN_MeanCov <= 0.875
+	THUJPLI_Constancy <= 66.66666
+	->  class ORDER Abielas-Vaccmem (ESSF central concept)  [0.957]
+
+Rule 0/4: (321/137, lift 2.7)
+	PICEENG_Constancy > 3.846154
+	PICEGLA_MeanCov <= 2.92
+	PINUCON_Constancy <= 82.35294
+	->  class ORDER Abielas-Vaccmem (ESSF central concept)  [0.573]
+
+Rule 0/5: (5/1, lift 129.6)
+	ABIELAS_Constancy <= 2.702703
+	PICEENE_MeanCov <= 2.8
+	PICESIT_Constancy <= 0
+	PINUCON_Constancy <= 82.35294
+	PINUPON_Constancy <= 45.45454
+	POPUBAL_Constancy <= 51.06383
+	POPUTRE_MeanCov <= 12.5
+	POPUTRI_MeanCov <= 11.52941
+	PSEUMEN_MeanCov <= 11.25
+	SALIBEB_MeanCov <= 0.4375
+	THUJPLI_Constancy <= 66.66666
+	XANTNOO_MeanCov <= 0.3333333
+	->  class ORDER Alnuinc-Equiset  [0.714]
+
+Rule 0/6: (6, lift 136.1)
+	BETUPAP_Constancy > 90.90909
+	POPUTRE_MeanCov <= 12.5
+	POPUTRI_MeanCov <= 11.52941
+	PSEUMEN_MeanCov <= 11.25
+	->  class ORDER Betupap  [0.875]
+
+Rule 0/7: (87/1, lift 6.2)
+	ABIELAS_MeanCov <= 28.625
+	BETUPAP_Constancy <= 90.90909
+	PICEENE_MeanCov > 2.8
+	PICEENG_Constancy <= 30.76923
+	PICEMAR_Constancy <= 7.142857
+	PINUALB_Constancy <= 5
+	PINUCON_Constancy <= 82.35294
+	POPUTRE_MeanCov <= 12.5
+	POPUTRI_MeanCov <= 11.52941
+	PSEUMEN_MeanCov <= 11.25
+	THUJPLI_Constancy <= 66.66666
+	TSUGHET_MeanCov <= 4.745763
+	->  class ORDER Piceene-Pleusch (SBS/MS) (Sx)  [0.978]
+
+Rule 0/8: (17/1, lift 5.7)
+	BETUPAP_Constancy > 45.45454
+	PICEENE_MeanCov > 1.364182
+	PSEUMEN_MeanCov > 11.25
+	TAXUBRE_MeanCov <= 0.0952381
+	THUJPLI_Constancy <= 66.66666
+	->  class ORDER Piceene-Pleusch (SBS/MS) (Sx)  [0.895]
+
+Rule 0/9: (3, lift 5.1)
+	PICESIT_Constancy <= 0
+	POPUBAL_MeanCov > 0.004464286
+	PSEUMEN_MeanCov > 11.25
+	->  class ORDER Piceene-Pleusch (SBS/MS) (Sx)  [0.800]
+
+Rule 0/10: (339/198, lift 2.7)
+	PICEENG_Constancy <= 30.76923
+	PICESIT_Constancy <= 0
+	PINUPON_Constancy <= 45.45454
+	POPUTRE_MeanCov <= 12.5
+	PSEUMEN_MeanCov <= 11.25
+	THUJPLI_Constancy <= 66.66666
+	->  class ORDER Piceene-Pleusch (SBS/MS) (Sx)  [0.416]
+
+Rule 0/11: (17, lift 35.6)
+	ABIELAS_Constancy > 2.702703
+	ABIELAS_Constancy <= 60
+	PICEENE_MeanCov <= 2.8
+	PICEGLA_Constancy > 25
+	PICEMAR_MeanCov <= 12
+	PINUCON_Constancy <= 82.35294
+	POPUTRE_MeanCov <= 12.5
+	->  class ORDER Picegla-Hylospl (BWBS/SWB) (Sw)  [0.947]
+
+Rule 0/12: (6, lift 32.9)
+	BETUPAP_Constancy <= 20
+	PICEENG_Constancy > 3.846154
+	PICEENG_Constancy <= 30.76923
+	PICEGLA_MeanCov > 2.92
+	PICEMAR_Constancy > 7.142857
+	->  class ORDER Picegla-Hylospl (BWBS/SWB) (Sw)  [0.875]
+
+Rule 0/13: (4/1, lift 25.0)
+	PICEENE_Constancy <= 31.03448
+	PICEMAR_MeanCov <= 9.45
+	PINUCON_Constancy > 82.35294
+	POPUTRE_MeanCov > 1.52
+	->  class ORDER Picegla-Hylospl (BWBS/SWB) (Sw)  [0.667]
+
+Rule 0/14: (7, lift 80.7)
+	PICEENE_MeanCov <= 2.8
+	PICEMAR_MeanCov > 12
+	->  class ORDER Picemar-Pleusch (coldair upland blackspruce)  [0.889]
+
+Rule 0/15: (9/1, lift 74.3)
+	PICEENG_Constancy <= 30.76923
+	PICEMAR_MeanCov > 9.45
+	PINUCON_Constancy > 82.35294
+	->  class ORDER Picemar-Pleusch (coldair upland blackspruce)  [0.818]
+
+Rule 0/16: (49/3, lift 11.9)
+	BETUPAP_MeanCov <= 1.319091
+	PICEENE_MeanCov <= 9.7
+	PICEENG_Constancy <= 30.76923
+	PICEMAR_Constancy <= 54.54546
+	PICESIT_Constancy <= 0
+	PINUCON_MeanCov > 18.375
+	POPUTRE_MeanCov <= 1.52
+	POPUTRI_MeanCov <= 0.01428571
+	PSEUMEN_MeanCov <= 11.25
+	PSEUMEN_Constancy <= 80
+	->  class ORDER Pinucon (SBPS - SBS/MS/BWBSXeric sites and cold )(Pl +dry)  [0.922]
+
+Rule 0/17: (59/5, lift 11.7)
+	ABIELAS_MeanCov <= 6.708333
+	BETUPAP_MeanCov <= 1.319091
+	PICEENE_MeanCov <= 17.64
+	PICEENG_Constancy <= 30.76923
+	PICEMAR_Constancy <= 54.54546
+	PICESIT_Constancy <= 0
+	PINUCON_Constancy > 82.35294
+	POPUTRE_MeanCov <= 1.52
+	PSEUMEN_MeanCov <= 11.25
+	PSEUMEN_Constancy <= 80
+	TSUGHET_MeanCov <= 4.745763
+	->  class ORDER Pinucon (SBPS - SBS/MS/BWBSXeric sites and cold )(Pl +dry)  [0.902]
+
+Rule 0/18: (8, lift 11.7)
+	PICEENG_Constancy > 30.76923
+	PINUCON_MeanCov > 28.025
+	->  class ORDER Pinucon (SBPS - SBS/MS/BWBSXeric sites and cold )(Pl +dry)  [0.900]
+
+Rule 0/19: (8, lift 11.7)
+	PICEENG_Constancy > 30.76923
+	PINUCON_MeanCov > 18.11667
+	PSEUMEN_MeanCov > 0.875
+	PSEUMEN_MeanCov <= 11.25
+	->  class ORDER Pinucon (SBPS - SBS/MS/BWBSXeric sites and cold )(Pl +dry)  [0.900]
+
+Rule 0/20: (4, lift 10.8)
+	PICEENG_Constancy <= 30.76923
+	PINUALB_Constancy > 5
+	POPUTRE_MeanCov > 0.2631579
+	PSEUMEN_MeanCov <= 11.25
+	->  class ORDER Pinucon (SBPS - SBS/MS/BWBSXeric sites and cold )(Pl +dry)  [0.833]
+
+Rule 0/21: (2, lift 9.7)
+	PINUCON_MeanCov > 25.32283
+	PSEUMEN_MeanCov > 11.25
+	->  class ORDER Pinucon (SBPS - SBS/MS/BWBSXeric sites and cold )(Pl +dry)  [0.750]
+
+Rule 0/22: (22/2, lift 43.3)
+	PINUPON_Constancy > 78.57143
+	PSEUMEN_MeanCov <= 16.17692
+	PSEUMEN_Constancy <= 97.29729
+	->  class ORDER Pinupon-Pseuspi (Py dominant and Pseuspi)  [0.875]
+
+Rule 0/23: (20/2, lift 42.8)
+	PINUPON_Constancy > 45.45454
+	PSEUMEN_MeanCov <= 11.25
+	->  class ORDER Pinupon-Pseuspi (Py dominant and Pseuspi)  [0.864]
+
+Rule 0/24: (18, lift 47.0)
+	POPUTRE_MeanCov <= 12.5
+	POPUTRI_MeanCov > 11.52941
+	->  class ORDER Popubal  [0.950]
+
+Rule 0/25: (6/3, lift 24.8)
+	PICEENE_MeanCov <= 2.8
+	POPUBAL_Constancy > 51.06383
+	->  class ORDER Popubal  [0.500]
+
+Rule 0/26: (51/1, lift 21.0)
+	PICESIT_Constancy <= 0
+	POPUBAL_Constancy <= 80
+	POPUTRE_MeanCov > 12.5
+	->  class ORDER Poputre  [0.962]
+
+Rule 0/27: (121/1, lift 7.4)
+	ARBUMEN_MeanCov <= 0.01111111
+	BETUPAP_Constancy <= 45.45454
+	PICEENG_MeanCov <= 8.7
+	PICESIT_Constancy <= 0
+	PINUCON_MeanCov <= 25.32283
+	PINUPON_Constancy <= 78.57143
+	POPUBAL_MeanCov <= 0.004464286
+	PSEUMEN_MeanCov > 11.25
+	TAXUBRE_MeanCov <= 0.0952381
+	THUJPLI_Constancy <= 66.66666
+	TSUGHET_MeanCov <= 4.745763
+	->  class ORDER Pseumen1-Calarub (Interior Fd forests(Fd or CALARUB)  [0.984]
+
+Rule 0/28: (168/38, lift 5.8)
+	PSEUMEN_Constancy > 80
+	THUJPLI_Constancy <= 66.66666
+	->  class ORDER Pseumen1-Calarub (Interior Fd forests(Fd or CALARUB)  [0.771]
+
+Rule 0/29: (5, lift 186.7)
+	ARBUMEN_MeanCov > 0.01111111
+	THUJPLI_Constancy <= 66.66666
+	->  class ORDER Pseumen2-Mahoner (Coastal Fd forests)  [0.857]
+
+Rule 0/30: (3, lift 174.2)
+	ABIELAS_Constancy <= 2.702703
+	PICEENE_MeanCov <= 2.8
+	PINUCON_Constancy <= 82.35294
+	POPUTRE_MeanCov <= 12.5
+	PSEUMEN_MeanCov <= 11.25
+	SALIBEB_MeanCov > 0.4375
+	->  class ORDER Salix-Equiset  [0.800]
+
+Rule 0/31: (133/7, lift 6.9)
+	ABIELAS_Constancy <= 40.74074
+	PICESIT_Constancy > 0
+	POPUTRI_MeanCov <= 11.52941
+	TSUGMER_MeanCov <= 22.57143
+	->  class ORDER Tsughet-Rhytlor (CWH)  [0.941]
+
+Rule 0/32: (60/3, lift 6.9)
+	ALNURUB_MeanCov > 0.01666667
+	THUJPLI_Constancy > 66.66666
+	->  class ORDER Tsughet-Rhytlor (CWH)  [0.935]
+
+Rule 0/33: (10, lift 6.7)
+	PICESIT_Constancy <= 0
+	TSUGHET_MeanCov > 5.22
+	XANTNOO_MeanCov > 0.3333333
+	->  class ORDER Tsughet-Rhytlor (CWH)  [0.917]
+
+Rule 0/34: (33/3, lift 6.5)
+	PSEUMEN_MeanCov > 11.25
+	TSUGHET_MeanCov > 4.745763
+	->  class ORDER Tsughet-Rhytlor (CWH)  [0.886]
+
+Rule 0/35: (115/4, lift 8.1)
+	ALNURUB_MeanCov <= 0.01666667
+	PICESIT_Constancy <= 0
+	THUJPLI_Constancy > 70.24793
+	XANTNOO_MeanCov <= 2.1275
+	->  class ORDER Tsughet-Thujpli-Pleusch (ICH)  [0.957]
+
+Rule 0/36: (71/5, lift 7.7)
+	PICEENG_Constancy <= 30.76923
+	PICESIT_Constancy <= 0
+	PSEUMEN_MeanCov <= 11.25
+	TSUGHET_MeanCov > 4.745763
+	TSUGHET_Constancy > 63.15789
+	XANTNOO_MeanCov <= 0.3333333
+	->  class ORDER Tsughet-Thujpli-Pleusch (ICH)  [0.918]
+
+Rule 0/37: (8/3, lift 5.1)
+	ABIELAS_Constancy > 40.74074
+	PICESIT_Constancy > 0
+	->  class ORDER Tsughet-Thujpli-Pleusch (ICH)  [0.600]
+
+Rule 0/38: (10, lift 55.5)
+	ABIELAS_Constancy <= 40.74074
+	TSUGMER_MeanCov > 22.57143
+	->  class ORDER Tsugmer  [0.917]
+
+Rule 0/39: (6, lift 52.9)
+	PICESIT_Constancy <= 0
+	TSUGHET_MeanCov <= 5.22
+	XANTNOO_MeanCov > 0.3333333
+	->  class ORDER Tsugmer  [0.875]
+
+Rule 0/40: (2, lift 45.4)
+	ABIELAS_Constancy > 40.74074
+	XANTNOO_MeanCov > 0.4545455
+	->  class ORDER Tsugmer  [0.750]
+
+Default class: ORDER Pseumen1-Calarub (Interior Fd forests(Fd or CALARUB)
+
+-----  Trial 1:  -----
+
+Rules:
+
+Rule 1/1: (4.7, lift 98.8)
+	JUNISCO_MeanCov > 0.2647059
+	XANTNOO_MeanCov > 0.005
+	->  class %ORDER Pinucon-Tsughet (ICH/CWH xeric)  [0.850]
+
+Rule 1/2: (5.5/0.8, lift 88.6)
+	PSEUMEN_Constancy > 16.66667
+	TSUGHET_Constancy <= 63.15789
+	XANTNOO_MeanCov > 0.005
+	->  class %ORDER Pinucon-Tsughet (ICH/CWH xeric)  [0.763]
+
+Rule 1/3: (27.7, lift 5.2)
+	ABIELAS_MeanCov > 33.66539
+	PICEXLU_Constancy <= 15
+	PSEUMEN_MeanCov <= 5.117647
+	->  class ORDER Abielas-Vaccmem (ESSF central concept)  [0.966]
+
+Rule 1/4: (860.8/660.3, lift 1.3)
+	ALNURUB_Constancy <= 1.538462
+	THUJPLI_MeanCov <= 7.726115
+	->  class ORDER Abielas-Vaccmem (ESSF central concept)  [0.233]
+
+Rule 1/5: (2.3/0.8, lift 51.6)
+	ABIELAS_Constancy <= 78.57143
+	ALNURUB_Constancy <= 1.538462
+	PICEA_Constancy <= 15.38461
+	POPUBAL_Constancy <= 8.333333
+	SALISIT_MeanCov > 0.4230769
+	->  class ORDER Alnuinc-Equiset  [0.589]
+
+Rule 1/6: (18.7/8.5, lift 47.2)
+	PICEA_Constancy > 15.38461
+	THUJPLI_MeanCov <= 3.5
+	->  class ORDER Alnuinc-Equiset  [0.539]
+
+Rule 1/7: (4.7, lift 99.8)
+	POPUTRE_MeanCov > 17.33333
+	THUJPLI_MeanCov > 1.7
+	->  class ORDER Betupap  [0.850]
+
+Rule 1/8: (26, lift 4.8)
+	ABIELAS_Constancy <= 78.57143
+	PICEENE_MeanCov > 18.0625
+	PSEUMEN_MeanCov <= 5.117647
+	THUJPLI_MeanCov <= 3.5
+	->  class ORDER Piceene-Pleusch (SBS/MS) (Sx)  [0.964]
+
+Rule 1/9: (65.7/3.1, lift 4.7)
+	ABIELAS_Constancy <= 78.57143
+	PICEA_Constancy <= 15.38461
+	PICEENE_Constancy > 10
+	PICEMAR_MeanCov <= 10.375
+	PICEXLU_Constancy <= 15
+	PINUCON_MeanCov <= 18.72
+	POPUBAL_Constancy <= 8.333333
+	POPUTRE_MeanCov <= 17.33333
+	PRUNVIR_MeanCov <= 0.275
+	PSEUMEN_MeanCov <= 5.117647
+	SALISIT_MeanCov <= 0.4230769
+	THUJPLI_MeanCov <= 3.5
+	->  class ORDER Piceene-Pleusch (SBS/MS) (Sx)  [0.940]
+
+Rule 1/10: (7, lift 4.5)
+	PICEENE_MeanCov > 12
+	THUJPLI_MeanCov > 3.5
+	THUJPLI_MeanCov <= 7.726115
+	->  class ORDER Piceene-Pleusch (SBS/MS) (Sx)  [0.889]
+
+Rule 1/11: (66.4/8.4, lift 4.3)
+	ABIELAS_MeanCov <= 33.66539
+	ABIELAS_Constancy > 78.57143
+	PICEENE_MeanCov > 10.25
+	THUJPLI_MeanCov <= 3.5
+	->  class ORDER Piceene-Pleusch (SBS/MS) (Sx)  [0.862]
+
+Rule 1/12: (44.8/6.1, lift 4.2)
+	LARIOCC_MeanCov <= 0.7236842
+	PICEENE_MeanCov > 1.457143
+	PINUALB_MeanCov <= 0.04
+	PINUCON_MeanCov <= 24.75455
+	PSEUMEN_MeanCov > 5.117647
+	THUJPLI_MeanCov <= 3.5
+	->  class ORDER Piceene-Pleusch (SBS/MS) (Sx)  [0.848]
+
+Rule 1/13: (23.1/3.1, lift 4.2)
+	ABIELAS_Constancy > 78.57143
+	BETUPAP_Constancy <= 22.22222
+	PICEENE_Constancy > 81.25
+	PSEUMEN_MeanCov <= 5.117647
+	THUJPLI_MeanCov <= 3.5
+	->  class ORDER Piceene-Pleusch (SBS/MS) (Sx)  [0.838]
+
+Rule 1/14: (13.2/1.5, lift 4.2)
+	ABIELAS_Constancy <= 78.57143
+	PICEMAR_MeanCov <= 10.375
+	PICEMAR_Constancy > 40
+	POPUBAL_Constancy <= 8.333333
+	->  class ORDER Piceene-Pleusch (SBS/MS) (Sx)  [0.834]
+
+Rule 1/15: (38.7/7, lift 4.0)
+	ABIELAS_Constancy > 78.57143
+	BETUPAP_Constancy > 22.22222
+	PICEA_Constancy <= 15.38461
+	THUJPLI_MeanCov <= 3.5
+	->  class ORDER Piceene-Pleusch (SBS/MS) (Sx)  [0.804]
+
+Rule 1/16: (20/4.6, lift 3.7)
+	ALNURUB_Constancy <= 1.538462
+	PICEA_Constancy <= 15.38461
+	PICEGLA_Constancy <= 44.44444
+	POPUBAL_Constancy > 8.333333
+	POPUBAL_Constancy <= 80
+	POPUTRE_MeanCov <= 17.33333
+	POPUTRI_Constancy <= 42.85714
+	SALISIT_MeanCov <= 4
+	THUJPLI_MeanCov <= 3.5
+	->  class ORDER Piceene-Pleusch (SBS/MS) (Sx)  [0.746]
+
+Rule 1/17: (16.3/3.8, lift 3.7)
+	ABIELAS_MeanCov > 9.375
+	ABIELAS_MeanCov <= 10.42
+	PINUCON_MeanCov <= 18.11667
+	THUJPLI_MeanCov <= 3.5
+	XANTNOO_MeanCov <= 0.005
+	->  class ORDER Piceene-Pleusch (SBS/MS) (Sx)  [0.736]
+
+Rule 1/18: (27.9/1.5, lift 26.3)
+	PICEA_Constancy <= 15.38461
+	PICEGLA_Constancy > 44.44444
+	PICEMAR_MeanCov <= 12
+	POPUBAL_Constancy > 8.333333
+	POPUTRE_MeanCov <= 17.33333
+	->  class ORDER Picegla-Hylospl (BWBS/SWB) (Sw)  [0.915]
+
+Rule 1/19: (38.6/16.2, lift 16.6)
+	ABIELAS_Constancy <= 78.57143
+	ALNURUB_Constancy <= 1.538462
+	PICEA_Constancy <= 15.38461
+	PICEENE_Constancy <= 10
+	PICEMAR_MeanCov <= 10.375
+	PICEXLU_Constancy <= 15
+	PINUCON_MeanCov <= 18.72
+	PINUPON_Constancy <= 60
+	POPUTRE_MeanCov <= 17.33333
+	PRUNVIR_MeanCov <= 0.275
+	PSEUMEN_MeanCov <= 5.117647
+	QUERGAR1_MeanCov <= 4.285714
+	SALISIT_MeanCov <= 0.4230769
+	THUJPLI_MeanCov <= 3.5
+	XANTNOO_MeanCov <= 0.005
+	->  class ORDER Picegla-Hylospl (BWBS/SWB) (Sw)  [0.577]
+
+Rule 1/20: (12.3, lift 77.3)
+	ABIELAS_Constancy <= 78.57143
+	PICEMAR_MeanCov > 10.375
+	->  class ORDER Picemar-Pleusch (coldair upland blackspruce)  [0.930]
+
+Rule 1/21: (47/2.3, lift 11.6)
+	ABIELAS_Constancy <= 78.57143
+	PICEENE_MeanCov <= 18.0625
+	PICEMAR_Constancy <= 40
+	PINUCON_MeanCov > 18.72
+	POPUBAL_Constancy <= 8.333333
+	PSEUMEN_MeanCov <= 5.117647
+	XANTNOO_MeanCov <= 0.005
+	->  class ORDER Pinucon (SBPS - SBS/MS/BWBSXeric sites and cold )(Pl +dry)  [0.933]
+
+Rule 1/22: (17.6/0.8, lift 11.3)
+	BETUPAP_Constancy <= 22.22222
+	PICEENE_MeanCov <= 10.25
+	PINUCON_MeanCov > 18.11667
+	PSEUMEN_MeanCov > 0.72
+	PSEUMEN_MeanCov <= 5.117647
+	->  class ORDER Pinucon (SBPS - SBS/MS/BWBSXeric sites and cold )(Pl +dry)  [0.910]
+
+Rule 1/23: (11.6/0.8, lift 10.8)
+	PINUCON_MeanCov > 24.75455
+	PSEUMEN_MeanCov > 5.117647
+	->  class ORDER Pinucon (SBPS - SBS/MS/BWBSXeric sites and cold )(Pl +dry)  [0.870]
+
+Rule 1/24: (4.7, lift 10.5)
+	ABIELAS_Constancy > 78.57143
+	JUNISCO_MeanCov > 0.02
+	PSEUMEN_MeanCov <= 5.117647
+	->  class ORDER Pinucon (SBPS - SBS/MS/BWBSXeric sites and cold )(Pl +dry)  [0.850]
+
+Rule 1/25: (6.9, lift 46.5)
+	PINUPON_Constancy > 60
+	PSEUMEN_MeanCov <= 5.117647
+	->  class ORDER Pinupon-Pseuspi (Py dominant and Pseuspi)  [0.888]
+
+Rule 1/26: (26.1/6.9, lift 37.7)
+	PINUPON_Constancy > 63.15789
+	PRUNVIR_Constancy <= 20.51282
+	->  class ORDER Pinupon-Pseuspi (Py dominant and Pseuspi)  [0.719]
+
+Rule 1/27: (7, lift 46.6)
+	ALNURUB_Constancy > 1.538462
+	POPUBAL_Constancy > 22.22222
+	->  class ORDER Popubal  [0.889]
+
+Rule 1/28: (4.6, lift 44.5)
+	ALNURUB_Constancy > 1.538462
+	POPUTRI_Constancy > 42.85714
+	SALILAS_MeanCov <= 1.916667
+	->  class ORDER Popubal  [0.848]
+
+Rule 1/29: (8.4/0.8, lift 43.5)
+	PICEA_Constancy <= 15.38461
+	POPUTRE_MeanCov <= 17.33333
+	POPUTRI_Constancy > 42.85714
+	SALISIT_MeanCov <= 4
+	THUJPLI_MeanCov <= 3.5
+	->  class ORDER Popubal  [0.831]
+
+Rule 1/30: (39.8/1.5, lift 26.7)
+	POPUTRE_MeanCov > 17.33333
+	THUJPLI_MeanCov <= 1.7
+	->  class ORDER Poputre  [0.939]
+
+Rule 1/31: (94.4/4.6, lift 7.9)
+	ALNURUB_Constancy <= 1.538462
+	PICEENE_MeanCov <= 1.457143
+	PICEENG_Constancy <= 73.68421
+	PINUCON_MeanCov <= 24.75455
+	PINUPON_Constancy <= 63.15789
+	PSEUMEN_MeanCov > 5.117647
+	THUJPLI_MeanCov <= 3.5
+	XANTNOO_MeanCov <= 0.005
+	->  class ORDER Pseumen1-Calarub (Interior Fd forests(Fd or CALARUB)  [0.942]
+
+Rule 1/32: (10, lift 7.6)
+	LARIOCC_MeanCov > 0.7236842
+	PICEENE_MeanCov > 1.457143
+	PINUCON_MeanCov <= 24.75455
+	PSEUMEN_MeanCov > 5.117647
+	THUJPLI_MeanCov <= 3.5
+	->  class ORDER Pseumen1-Calarub (Interior Fd forests(Fd or CALARUB)  [0.917]
+
+Rule 1/33: (15.5/0.8, lift 7.5)
+	PINUPON_Constancy > 63.15789
+	PRUNVIR_Constancy > 20.51282
+	PSEUMEN_MeanCov > 5.117647
+	->  class ORDER Pseumen1-Calarub (Interior Fd forests(Fd or CALARUB)  [0.899]
+
+Rule 1/34: (20.1/2.3, lift 7.1)
+	LARIOCC_MeanCov <= 0.7236842
+	PINUALB_MeanCov > 0.04
+	PSEUMEN_MeanCov > 5.117647
+	->  class ORDER Pseumen1-Calarub (Interior Fd forests(Fd or CALARUB)  [0.851]
+
+Rule 1/35: (7, lift 124.8)
+	ARBUMEN_MeanCov > 1.439565
+	->  class ORDER Pseumen2-Mahoner (Coastal Fd forests)  [0.889]
+
+Rule 1/36: (4.7, lift 197.5)
+	QUERGAR1_MeanCov > 4.285714
+	->  class ORDER Quergar  [0.850]
+
+Rule 1/37: (5.5/0.8, lift 177.2)
+	POPUBAL_Constancy > 80
+	POPUTRE_MeanCov <= 17.33333
+	->  class ORDER Salix  [0.763]
+
+Rule 1/38: (10.1, lift 85.6)
+	SALISIT_MeanCov > 4
+	->  class ORDER Salix-Equiset  [0.918]
+
+Rule 1/39: (79.7/0.8, lift 8.3)
+	ALNURUB_Constancy > 1.538462
+	ARBUMEN_MeanCov <= 1.439565
+	POPUBAL_Constancy <= 22.22222
+	POPUTRI_Constancy <= 42.85714
+	->  class ORDER Tsughet-Rhytlor (CWH)  [0.978]
+
+Rule 1/40: (10.1, lift 7.7)
+	ACERCIR_MeanCov > 0.0509434
+	ALNURUB_Constancy <= 1.538462
+	THUJPLI_MeanCov > 3.5
+	->  class ORDER Tsughet-Rhytlor (CWH)  [0.918]
+
+Rule 1/41: (23.9/6.9, lift 5.9)
+	ALNURUB_Constancy <= 1.538462
+	PICEENE_MeanCov <= 12
+	PICEENG_MeanCov <= 2.0625
+	THUJPLI_MeanCov > 3.5
+	THUJPLI_MeanCov <= 7.726115
+	->  class ORDER Tsughet-Rhytlor (CWH)  [0.696]
+
+Rule 1/42: (94.6/31.8, lift 5.6)
+	XANTNOO_MeanCov > 0.005
+	->  class ORDER Tsughet-Rhytlor (CWH)  [0.661]
+
+Rule 1/43: (102.9/10, lift 8.8)
+	ACERCIR_MeanCov <= 0.0509434
+	ALNURUB_Constancy <= 1.538462
+	THUJPLI_MeanCov > 7.726115
+	XANTNOO_MeanCov <= 0.005
+	->  class ORDER Tsughet-Thujpli-Pleusch (ICH)  [0.895]
+
+Rule 1/44: (15.4/6.2, lift 5.8)
+	ALNURUB_Constancy <= 1.538462
+	PICEXLU_Constancy > 15
+	POPUBAL_Constancy <= 8.333333
+	POPUTRE_MeanCov <= 17.33333
+	->  class ORDER Tsughet-Thujpli-Pleusch (ICH)  [0.585]
+
+Rule 1/45: (18.6, lift 47.9)
+	PSEUMEN_Constancy <= 16.66667
+	TSUGHET_Constancy <= 63.15789
+	TSUGMER_Constancy > 57.14286
+	XANTNOO_MeanCov > 0.005
+	->  class ORDER Tsugmer  [0.951]
+
+Rule 1/46: (6.1, lift 44.2)
+	TSUGMER_MeanCov > 25.01122
+	XANTNOO_MeanCov > 0.005
+	->  class ORDER Tsugmer  [0.877]
+
+Default class: ORDER Piceene-Pleusch (SBS/MS) (Sx)
+
+-----  Trial 2:  -----
+
+Rules:
+
+Rule 2/1: (3.7, lift 122.7)
+	ARBUMEN_MeanCov <= 0.01111111
+	PSEUMEN_MeanCov > 2.5
+	TSUGHET_Constancy <= 63.15789
+	XANTNOO_MeanCov > 0.005
+	->  class %ORDER Pinucon-Tsughet (ICH/CWH xeric)  [0.823]
+
+Rule 2/2: (3.7, lift 122.7)
+	JUNISCO_MeanCov > 0.2647059
+	XANTNOO_MeanCov > 0.005
+	->  class %ORDER Pinucon-Tsughet (ICH/CWH xeric)  [0.823]
+
+Rule 2/3: (1009.1/808, lift 1.1)
+	XANTNOO_MeanCov <= 0.005
+	->  class ORDER Abielas-Vaccmem (ESSF central concept)  [0.200]
+
+Rule 2/4: (16.6/8.7, lift 44.1)
+	ABIELAS_MeanCov <= 4.694737
+	PICEA_Constancy > 15.38461
+	SALISCO_MeanCov <= 1.211765
+	->  class ORDER Alnuinc-Equiset  [0.478]
+
+Rule 2/5: (19/1.8, lift 47.4)
+	BETUPAP_Constancy > 61.53846
+	PICEA_Constancy <= 6.666667
+	SALISCO_MeanCov > 1.211765
+	->  class ORDER Betupap  [0.867]
+
+Rule 2/6: (2.7, lift 43.1)
+	PICEMAR_MeanCov > 0.09090909
+	THUJPLI_MeanCov > 7
+	->  class ORDER Betupap  [0.788]
+
+Rule 2/7: (19, lift 5.2)
+	BETUPAP_Constancy <= 38.88889
+	LARIOCC_Constancy <= 7.142857
+	PICEA_MeanCov <= 0.03773585
+	PICEENE_Constancy > 14.28571
+	PICEENG_Constancy <= 31.25
+	PICEGLA_Constancy <= 27.77778
+	PICEMAR_MeanCov <= 3.564706
+	PINUALB_Constancy <= 22.22222
+	PINUCON_MeanCov <= 18.72
+	PINUCON_Constancy > 61.53846
+	POPUBAL_MeanCov <= 0.04651163
+	POPUTRI_Constancy <= 0.4310345
+	PSEUMEN_MeanCov <= 7.161111
+	SALISCO_Constancy <= 31.25
+	->  class ORDER Piceene-Pleusch (SBS/MS) (Sx)  [0.952]
+
+Rule 2/8: (18.9, lift 5.2)
+	PICEGLA_MeanCov > 5.724299
+	PSEUMEN_Constancy > 8.333333
+	->  class ORDER Piceene-Pleusch (SBS/MS) (Sx)  [0.952]
+
+Rule 2/9: (16.8, lift 5.1)
+	ABIELAS_Constancy <= 78.57143
+	BETUPAP_MeanCov <= 0.5
+	PICEENE_MeanCov > 5.175
+	PICEGLA_Constancy <= 31.25
+	PINUCON_Constancy <= 61.53846
+	POPUTRI_MeanCov <= 0.2
+	PSEUMEN_MeanCov <= 7.161111
+	THUJPLI_MeanCov <= 11.45494
+	TSUGHET_MeanCov <= 7.457143
+	->  class ORDER Piceene-Pleusch (SBS/MS) (Sx)  [0.947]
+
+Rule 2/10: (15.7, lift 5.1)
+	ALNURUB_Constancy <= 1.538462
+	PINUCON_Constancy <= 61.53846
+	PINUPON_MeanCov <= 1.916667
+	PRUNVIR_MeanCov <= 0.1545455
+	PSEUMEN_MeanCov > 4.090909
+	PSEUMEN_MeanCov <= 7.161111
+	TAXUBRE_MeanCov <= 0.05
+	THUJPLI_MeanCov <= 11.45494
+	XANTNOO_MeanCov <= 0.005
+	->  class ORDER Piceene-Pleusch (SBS/MS) (Sx)  [0.944]
+
+Rule 2/11: (14.1, lift 5.1)
+	ABIELAS_MeanCov > 4.5
+	BETUPAP_MeanCov > 0.5
+	PICEGLA_Constancy <= 31.25
+	PICEMAR_MeanCov <= 3.564706
+	PINUCON_Constancy <= 61.53846
+	PSEUMEN_MeanCov <= 7.161111
+	SALISCO_MeanCov <= 1.211765
+	THUJPLI_MeanCov <= 11.45494
+	TSUGHET_MeanCov <= 7.457143
+	->  class ORDER Piceene-Pleusch (SBS/MS) (Sx)  [0.938]
+
+Rule 2/12: (13.9/0.6, lift 4.9)
+	PICEGLA_MeanCov > 2.285714
+	PSEUMEN_MeanCov > 7.161111
+	THUJPLI_MeanCov <= 7
+	->  class ORDER Piceene-Pleusch (SBS/MS) (Sx)  [0.899]
+
+Rule 2/13: (7.5, lift 4.8)
+	PICEA_Constancy <= 15.38461
+	PICEGLA_MeanCov > 5.724299
+	POPUTRI_MeanCov > 0.804
+	->  class ORDER Piceene-Pleusch (SBS/MS) (Sx)  [0.895]
+
+Rule 2/14: (7.3, lift 4.8)
+	PICEENE_MeanCov > 5.175
+	TAXUBRE_MeanCov > 0.05
+	THUJPLI_MeanCov <= 11.45494
+	TSUGHET_MeanCov <= 7.457143
+	->  class ORDER Piceene-Pleusch (SBS/MS) (Sx)  [0.893]
+
+Rule 2/15: (6.6, lift 4.8)
+	PICEXLU_MeanCov > 3.583333
+	SALISCO_MeanCov <= 1.211765
+	TSUGHET_MeanCov <= 7.457143
+	->  class ORDER Piceene-Pleusch (SBS/MS) (Sx)  [0.884]
+
+Rule 2/16: (41.2/4.2, lift 4.8)
+	ALNURUB_Constancy <= 1.538462
+	PICEA_Constancy <= 15.38461
+	PICEGLA_Constancy <= 31.25
+	POPUTRI_MeanCov > 0.2
+	PRUNVIR_MeanCov <= 0.1545455
+	PSEUMEN_MeanCov <= 7.161111
+	SALISCO_MeanCov <= 1.211765
+	SALISIT_MeanCov <= 0.7692308
+	THUJPLI_MeanCov <= 11.45494
+	TSUGHET_MeanCov <= 7.457143
+	XANTNOO_MeanCov <= 0.005
+	->  class ORDER Piceene-Pleusch (SBS/MS) (Sx)  [0.880]
+
+Rule 2/17: (9.1/0.6, lift 4.6)
+	ABIELAS_Constancy > 46.15385
+	PSEUMEN_MeanCov <= 7.161111
+	SALISCO_MeanCov > 1.211765
+	->  class ORDER Piceene-Pleusch (SBS/MS) (Sx)  [0.856]
+
+Rule 2/18: (4.8, lift 4.6)
+	PICEXLU_Constancy > 83.33334
+	->  class ORDER Piceene-Pleusch (SBS/MS) (Sx)  [0.854]
+
+Rule 2/19: (4.2, lift 4.6)
+	PSEUMEN_MeanCov > 7.161111
+	SALIBEB_MeanCov > 0.7166666
+	THUJPLI_MeanCov <= 7
+	->  class ORDER Piceene-Pleusch (SBS/MS) (Sx)  [0.840]
+
+Rule 2/20: (3.9, lift 4.5)
+	PINUCON_Constancy > 61.53846
+	SALISIT_MeanCov > 0.1
+	->  class ORDER Piceene-Pleusch (SBS/MS) (Sx)  [0.831]
+
+Rule 2/21: (3.7, lift 4.5)
+	PICEGLA_Constancy <= 31.25
+	PICEMAR_MeanCov <= 3.564706
+	PICEMAR_Constancy > 42.85714
+	->  class ORDER Piceene-Pleusch (SBS/MS) (Sx)  [0.823]
+
+Rule 2/22: (6.6/1.2, lift 4.0)
+	ALNURUB_Constancy <= 1.538462
+	POPUTRI_MeanCov > 0.3
+	PSEUMEN_MeanCov > 7.161111
+	THUJPLI_MeanCov > 7
+	->  class ORDER Piceene-Pleusch (SBS/MS) (Sx)  [0.745]
+
+Rule 2/23: (39.2/3.6, lift 22.9)
+	PICEGLA_MeanCov > 5.724299
+	PICEGLA_Constancy > 31.25
+	POPUTRE_MeanCov <= 4.5
+	POPUTRI_MeanCov <= 0.804
+	PSEUMEN_Constancy <= 8.333333
+	->  class ORDER Picegla-Hylospl (BWBS/SWB) (Sw)  [0.889]
+
+Rule 2/24: (14.8/1.2, lift 22.4)
+	PICEENG_Constancy > 8.333333
+	PICEGLA_Constancy > 31.25
+	->  class ORDER Picegla-Hylospl (BWBS/SWB) (Sw)  [0.869]
+
+Rule 2/25: (13.8/5.1, lift 54.4)
+	PICEGLA_Constancy <= 31.25
+	PICEMAR_MeanCov > 3.564706
+	SALISCO_MeanCov <= 1.211765
+	->  class ORDER Picemar-Pleusch (coldair upland blackspruce)  [0.615]
+
+Rule 2/26: (34.2, lift 9.7)
+	PICEGLA_Constancy <= 31.25
+	PICEMAR_Constancy <= 42.85714
+	PINUCON_MeanCov > 26.25
+	POPUTRI_Constancy <= 0.4310345
+	PSEUMEN_MeanCov <= 7.161111
+	SALISIT_MeanCov <= 0.1
+	XANTNOO_MeanCov <= 0.005
+	->  class ORDER Pinucon (SBPS - SBS/MS/BWBSXeric sites and cold )(Pl +dry)  [0.972]
+
+Rule 2/27: (7.8, lift 9.0)
+	JUNISCO_MeanCov > 0.02
+	JUNISCO_MeanCov <= 1.184211
+	PINUCON_Constancy > 61.53846
+	POPUTRI_Constancy <= 0.4310345
+	PSEUMEN_MeanCov <= 7.161111
+	SALISCO_MeanCov <= 1.211765
+	XANTNOO_MeanCov <= 0.005
+	->  class ORDER Pinucon (SBPS - SBS/MS/BWBSXeric sites and cold )(Pl +dry)  [0.898]
+
+Rule 2/28: (95.6/29.2, lift 6.9)
+	JUNISCO_MeanCov <= 1.184211
+	PICEENG_Constancy <= 31.25
+	PICEGLA_Constancy <= 27.77778
+	PICEMAR_Constancy <= 42.85714
+	PINUCON_Constancy > 61.53846
+	POPUTRI_Constancy <= 0.4310345
+	PSEUMEN_MeanCov <= 7.161111
+	SALISCO_MeanCov <= 1.211765
+	SALISIT_MeanCov <= 0.1
+	TSUGHET_MeanCov <= 7.457143
+	XANTNOO_MeanCov <= 0.005
+	->  class ORDER Pinucon (SBPS - SBS/MS/BWBSXeric sites and cold )(Pl +dry)  [0.690]
+
+Rule 2/29: (19.3/6.9, lift 6.3)
+	PICEENG_Constancy <= 8.333333
+	PICEGLA_MeanCov <= 5.724299
+	PICEGLA_Constancy > 31.25
+	POPUTRE_MeanCov <= 4.5
+	PSEUMEN_MeanCov <= 7.161111
+	SALIBEB_MeanCov <= 5.428571
+	SALISCO_MeanCov <= 1.211765
+	->  class ORDER Pinucon (SBPS - SBS/MS/BWBSXeric sites and cold )(Pl +dry)  [0.630]
+
+Rule 2/30: (14.4/5.1, lift 6.3)
+	PINUCON_MeanCov > 20.91293
+	PSEUMEN_MeanCov > 7.161111
+	->  class ORDER Pinucon (SBPS - SBS/MS/BWBSXeric sites and cold )(Pl +dry)  [0.629]
+
+Rule 2/31: (25.8/7.6, lift 41.2)
+	LARIOCC_Constancy <= 7.142857
+	PINUPON_MeanCov > 1.916667
+	PSEUMEN_MeanCov <= 16.17692
+	->  class ORDER Pinupon-Pseuspi (Py dominant and Pseuspi)  [0.693]
+
+Rule 2/32: (5.4, lift 26.8)
+	ALNURUB_Constancy > 1.538462
+	POPUBAL_Constancy > 22.22222
+	->  class ORDER Popubal  [0.866]
+
+Rule 2/33: (3.3, lift 25.1)
+	PICEA_Constancy > 6.666667
+	SALISCO_MeanCov > 1.211765
+	->  class ORDER Popubal  [0.812]
+
+Rule 2/34: (13.5/3, lift 23.0)
+	PICEGLA_Constancy <= 31.25
+	PINUPON_MeanCov <= 1.916667
+	PRUNVIR_MeanCov > 0.1545455
+	PSEUMEN_MeanCov <= 7.161111
+	SALISCO_MeanCov <= 1.211765
+	->  class ORDER Popubal  [0.743]
+
+Rule 2/35: (7.2, lift 32.5)
+	PICEGLA_Constancy <= 31.25
+	POPUTRE_MeanCov > 23.14286
+	SALISCO_MeanCov <= 1.211765
+	->  class ORDER Poputre  [0.891]
+
+Rule 2/36: (11.3/1.2, lift 30.5)
+	ABIELAS_Constancy <= 46.15385
+	ALNURUB_Constancy <= 1.538462
+	BETUPAP_Constancy <= 61.53846
+	SALISCO_MeanCov > 1.211765
+	->  class ORDER Poputre  [0.836]
+
+Rule 2/37: (21.3/8.7, lift 21.2)
+	PICEGLA_Constancy > 31.25
+	POPUTRE_MeanCov > 4.5
+	->  class ORDER Poputre  [0.582]
+
+Rule 2/38: (36.3, lift 7.5)
+	PINUPON_MeanCov > 1.916667
+	PSEUMEN_MeanCov > 16.17692
+	->  class ORDER Pseumen1-Calarub (Interior Fd forests(Fd or CALARUB)  [0.974]
+
+Rule 2/39: (87.8/3, lift 7.3)
+	ABIELAS_Constancy <= 88.23529
+	ACERCIR_MeanCov <= 1.02973
+	ALNURUB_Constancy <= 1.538462
+	ARBUMEN_MeanCov <= 1.708917
+	PICEGLA_MeanCov <= 2.285714
+	PINUCON_MeanCov <= 20.91293
+	PINUPON_MeanCov <= 1.916667
+	PSEUMEN_MeanCov > 7.161111
+	SALIBEB_MeanCov <= 0.7166666
+	THUJPLI_MeanCov <= 7
+	TSUGHET_MeanCov <= 7.457143
+	XANTNOO_MeanCov <= 0.005
+	->  class ORDER Pseumen1-Calarub (Interior Fd forests(Fd or CALARUB)  [0.956]
+
+Rule 2/40: (15, lift 7.2)
+	LARIOCC_Constancy > 7.142857
+	PINUPON_MeanCov > 1.916667
+	->  class ORDER Pseumen1-Calarub (Interior Fd forests(Fd or CALARUB)  [0.941]
+
+Rule 2/41: (12.1/1.8, lift 85.0)
+	ARBUMEN_MeanCov > 0.01111111
+	->  class ORDER Pseumen2-Mahoner (Coastal Fd forests)  [0.802]
+
+Rule 2/42: (3.7, lift 245.5)
+	QUERGAR1_MeanCov > 4.285714
+	->  class ORDER Quergar  [0.823]
+
+Rule 2/43: (4.2, lift 68.7)
+	SALILAS_MeanCov > 1.916667
+	->  class ORDER Salix-Equiset  [0.840]
+
+Rule 2/44: (2.7, lift 64.4)
+	SALIBEB_MeanCov > 5.428571
+	->  class ORDER Salix-Equiset  [0.788]
+
+Rule 2/45: (9.3/3, lift 53.1)
+	ALNURUB_Constancy <= 1.538462
+	PICEA_Constancy <= 15.38461
+	SALISIT_MeanCov > 0.7692308
+	TSUGHET_MeanCov <= 7.457143
+	->  class ORDER Salix-Equiset  [0.649]
+
+Rule 2/46: (27.2, lift 10.2)
+	PICESIT_MeanCov > 14.29024
+	->  class ORDER Tsughet-Rhytlor (CWH)  [0.966]
+
+Rule 2/47: (63.8/2.4, lift 10.0)
+	ALNURUB_Constancy > 1.538462
+	ARBUMEN_MeanCov <= 1.439565
+	POPUBAL_Constancy <= 22.22222
+	SALILAS_MeanCov <= 1.916667
+	->  class ORDER Tsughet-Rhytlor (CWH)  [0.949]
+
+Rule 2/48: (48.3/1.8, lift 10.0)
+	JUNISCO_MeanCov <= 0.2647059
+	TSUGHET_Constancy > 63.15789
+	XANTNOO_MeanCov > 0.005
+	->  class ORDER Tsughet-Rhytlor (CWH)  [0.945]
+
+Rule 2/49: (13.2/0.6, lift 9.4)
+	ACERMAC_MeanCov > 0.4339623
+	TSUGHET_MeanCov > 7.457143
+	->  class ORDER Tsughet-Rhytlor (CWH)  [0.895]
+
+Rule 2/50: (11.5/0.6, lift 9.3)
+	ACERCIR_MeanCov > 1.02973
+	PSEUMEN_MeanCov > 7.161111
+	->  class ORDER Tsughet-Rhytlor (CWH)  [0.882]
+
+Rule 2/51: (5.4, lift 9.1)
+	PINUCON_MeanCov > 12.9375
+	TSUGHET_MeanCov > 7.457143
+	->  class ORDER Tsughet-Rhytlor (CWH)  [0.866]
+
+Rule 2/52: (11.2, lift 9.7)
+	ABIELAS_MeanCov > 4.694737
+	PICEA_Constancy > 15.38461
+	->  class ORDER Tsughet-Thujpli-Pleusch (ICH)  [0.924]
+
+Rule 2/53: (45.1/2.7, lift 9.7)
+	ALNURUB_Constancy <= 1.538462
+	PSEUMEN_MeanCov <= 7.161111
+	THUJPLI_MeanCov > 11.45494
+	XANTNOO_MeanCov <= 0.005
+	->  class ORDER Tsughet-Thujpli-Pleusch (ICH)  [0.921]
+
+Rule 2/54: (18.3/0.6, lift 9.7)
+	ALNURUB_Constancy <= 1.538462
+	PICEMAR_MeanCov <= 0.09090909
+	POPUTRI_MeanCov <= 0.3
+	PSEUMEN_MeanCov > 7.161111
+	THUJPLI_MeanCov > 7
+	TSUGHET_MeanCov <= 7.457143
+	->  class ORDER Tsughet-Thujpli-Pleusch (ICH)  [0.921]
+
+Rule 2/55: (71.5/6.6, lift 9.4)
+	ACERMAC_MeanCov <= 0.4339623
+	ALNURUB_Constancy <= 1.538462
+	PICESIT_MeanCov <= 14.29024
+	PICEXLU_Constancy <= 83.33334
+	PINUCON_MeanCov <= 12.9375
+	TSUGHET_MeanCov > 7.457143
+	XANTNOO_MeanCov <= 0.005
+	->  class ORDER Tsughet-Thujpli-Pleusch (ICH)  [0.897]
+
+Rule 2/56: (19.6/2.4, lift 48.4)
+	PSEUMEN_MeanCov <= 2.5
+	TSUGHET_Constancy <= 63.15789
+	XANTNOO_MeanCov > 0.005
+	->  class ORDER Tsugmer  [0.843]
+
+Default class: ORDER Abielas-Vaccmem (ESSF central concept)
+
+
+Evaluation on training data (1089 cases):
+
+Trial	        Rules     
+-----	  ----------------
+	    No      Errors
+
+   0	    40   65( 6.0%)
+   1	    46  118(10.8%)
+   2	    56  121(11.1%)
+boost	         23( 2.1%)   <<
+
+
+	   (a)   (b)   (c)   (d)   (e)   (f)   (g)   (h)   (i)   (j)   (k)   (l)   (m)   (n)   (o)   (p)   (q)   (r)   (s)    <-classified as
+	  ----  ----  ----  ----  ----  ----  ----  ----  ----  ----  ----  ----  ----  ----  ----  ----  ----  ----  ----
+	     2                                                                                                                (a): class %ORDER Pinucon-Tsughet (ICH/CWH xeric)
+	         225                 1     1           1                       1                                   3          (b): class ORDER Abielas-Vaccmem (ESSF central concept)
+	                 6                                                                                                    (c): class ORDER Alnuinc-Equiset
+	                       7                                                                                              (d): class ORDER Betupap
+	           3     1         164                 2                                                           1          (e): class ORDER Piceene-Pleusch (SBS/MS) (Sx)
+	                                  29                                                                                  (f): class ORDER Picegla-Hylospl (BWBS/SWB) (Sw)
+	                                        12                                                                            (g): class ORDER Picemar-Pleusch (coldair upland blackspruce)
+	                             1                83                                                                      (h): class ORDER Pinucon (SBPS - SBS/MS/BWBSXeric sites and cold )(Pl +dry)
+	                                                    22                                                                (i): class ORDER Pinupon-Pseuspi (Py dominant and Pseuspi)
+	                 2                                        17     2                       1                            (j): class ORDER Popubal
+	                                                                50                                                    (k): class ORDER Poputre
+	                                                     2               143                                              (l): class ORDER Pseumen1-Calarub (Interior Fd forests(Fd or CALARUB)
+	                                                                             5                                        (m): class ORDER Pseumen2-Mahoner (Coastal Fd forests)
+	                                                                                   1                                  (n): class ORDER Quergar
+	                                                                                         1                            (o): class ORDER Salix
+	                                                                                               5                      (p): class ORDER Salix-Equiset
+	                                                                                                   147     1          (q): class ORDER Tsughet-Rhytlor (CWH)
+	                                                                                                         129          (r): class ORDER Tsughet-Thujpli-Pleusch (ICH)
+	                                                                                                                18    (s): class ORDER Tsugmer
+
+
+	Attribute usage:
+
+	100.00%	XANTNOO_MeanCov
+	 97.70%	ALNURUB_Constancy
+	 87.70%	THUJPLI_MeanCov
+	 82.83%	PSEUMEN_MeanCov
+	 81.27%	THUJPLI_Constancy
+	 74.29%	PICESIT_Constancy
+	 71.81%	PICEENG_Constancy
+	 58.03%	PINUCON_MeanCov
+	 55.92%	POPUTRE_MeanCov
+	 51.52%	POPUTRI_MeanCov
+	 48.94%	PINUCON_Constancy
+	 47.11%	PINUPON_Constancy
+	 47.02%	ABIELAS_Constancy
+	 47.02%	TSUGHET_MeanCov
+	 44.44%	PICEGLA_MeanCov
+	 38.11%	PICEENE_MeanCov
+	 33.88%	BETUPAP_Constancy
+	 33.06%	JUNISCO_MeanCov
+	 30.76%	POPUBAL_Constancy
+	 28.74%	TAXUBRE_MeanCov
+	 28.65%	PSEUMEN_Constancy
+	 25.34%	PICEGLA_Constancy
+	 22.68%	ABIELAS_MeanCov
+	 22.59%	ARBUMEN_MeanCov
+	 21.03%	ACERCIR_MeanCov
+	 21.03%	POPUTRI_Constancy
+	 20.84%	SALISIT_MeanCov
+	 20.57%	PICEXLU_Constancy
+	 20.20%	SALISCO_MeanCov
+	 18.18%	PICEA_Constancy
+	 17.72%	PICEMAR_Constancy
+	 16.99%	PINUPON_MeanCov
+	 16.07%	ALNURUB_MeanCov
+	 15.89%	TSUGHET_Constancy
+	 15.24%	PICEMAR_MeanCov
+	 13.13%	TSUGMER_MeanCov
+	 13.04%	POPUBAL_MeanCov
+	 12.86%	PICEENG_MeanCov
+	 12.21%	PICESIT_MeanCov
+	 12.12%	PRUNVIR_MeanCov
+	 11.57%	PICEENE_Constancy
+	 11.39%	SALIBEB_MeanCov
+	 10.56%	ACERMAC_MeanCov
+	 10.28%	SALILAS_MeanCov
+	  9.09%	PINUALB_Constancy
+	  9.00%	BETUPAP_MeanCov
+	  5.69%	LARIOCC_MeanCov
+	  5.23%	LARIOCC_Constancy
+	  4.96%	PINUALB_MeanCov
+	  3.58%	PRUNVIR_Constancy
+	  3.31%	QUERGAR1_MeanCov
+	  1.65%	PICEA_MeanCov
+	  1.65%	SALISCO_Constancy
+	  1.29%	TSUGMER_Constancy
+	  0.37%	PICEXLU_MeanCov
+
+
+Time: 0.2 secs
+

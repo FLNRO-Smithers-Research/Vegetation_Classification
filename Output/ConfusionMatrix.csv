@@ -1,0 +1,20 @@
+"","%ORDER Pinucon-Tsughet (ICH/CWH xeric)","ORDER Abielas-Vaccmem (ESSF central concept)","ORDER Alnuinc-Equiset","ORDER Betupap","ORDER Piceene-Pleusch (SBS/MS) (Sx)","ORDER Picegla-Hylospl (BWBS/SWB) (Sw)","ORDER Picemar-Pleusch (coldair upland blackspruce)","ORDER Pinucon  (SBPS - SBS/MS/BWBSXeric sites and cold )(Pl +dry)","ORDER Pinupon-Pseuspi (Py dominant  and Pseuspi)","ORDER Popubal","ORDER Poputre","ORDER Pseumen1-Calarub (Interior Fd forests(Fd or CALARUB)","ORDER Pseumen2-Mahoner (Coastal Fd forests)","ORDER Quergar","ORDER Salix","ORDER Salix-Equiset","ORDER Tsughet-Rhytlor (CWH)","ORDER Tsughet-Thujpli-Pleusch (ICH)","ORDER Tsugmer"
+"%ORDER Pinucon-Tsughet (ICH/CWH xeric)",2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+"ORDER Abielas-Vaccmem (ESSF central concept)",0,225,0,0,1,1,0,1,0,0,0,1,0,0,0,0,0,3,0
+"ORDER Alnuinc-Equiset",0,0,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+"ORDER Betupap",0,0,0,7,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+"ORDER Piceene-Pleusch (SBS/MS) (Sx)",0,3,1,0,164,0,0,2,0,0,0,0,0,0,0,0,0,1,0
+"ORDER Picegla-Hylospl (BWBS/SWB) (Sw)",0,0,0,0,0,29,0,0,0,0,0,0,0,0,0,0,0,0,0
+"ORDER Picemar-Pleusch (coldair upland blackspruce)",0,0,0,0,0,0,12,0,0,0,0,0,0,0,0,0,0,0,0
+"ORDER Pinucon  (SBPS - SBS/MS/BWBSXeric sites and cold )(Pl +dry)",0,0,0,0,1,0,0,83,0,0,0,0,0,0,0,0,0,0,0
+"ORDER Pinupon-Pseuspi (Py dominant  and Pseuspi)",0,0,0,0,0,0,0,0,22,0,0,0,0,0,0,0,0,0,0
+"ORDER Popubal",0,0,2,0,0,0,0,0,0,17,2,0,0,0,1,0,0,0,0
+"ORDER Poputre",0,0,0,0,0,0,0,0,0,0,50,0,0,0,0,0,0,0,0
+"ORDER Pseumen1-Calarub (Interior Fd forests(Fd or CALARUB)",0,0,0,0,0,0,0,0,2,0,0,143,0,0,0,0,0,0,0
+"ORDER Pseumen2-Mahoner (Coastal Fd forests)",0,0,0,0,0,0,0,0,0,0,0,0,5,0,0,0,0,0,0
+"ORDER Quergar",0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+"ORDER Salix",0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+"ORDER Salix-Equiset",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,5,0,0,0
+"ORDER Tsughet-Rhytlor (CWH)",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,147,1,0
+"ORDER Tsughet-Thujpli-Pleusch (ICH)",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,129,0
+"ORDER Tsugmer",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,18
