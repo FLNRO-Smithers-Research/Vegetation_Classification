@@ -46,14 +46,14 @@ droplevels(SUsumData$SiteUnit, SUsumData$Species)
 save(SUsumData, file = paste(level,"_Differential_data.RData", sep = ""))
 ###Lookup tables
 domDiffCls <- data.frame(SigDiff = c(9,8,7,6,5,4,3,2), DomDiff = c("dd1","dd1","dd1","dd1","dd1","dd2","dd3","dd4"))
-scoreVals <- data.frame(Code = c("d1","d2","d3","dd1","dd2","dd3","dd4","c","cd","cm"),
-                        Value = c(3,2,1,5,4,3,2,1,2,-1))
+scoreVals <- data.frame(Code = c("d1","d2","d3","dd1","dd2","dd3","dd4","cd","c","cm"),
+                        Value = c(4,3,1,4,3,2,1,2,0,-2))
 differential <- SUsumData[,c("SiteUnit", "Species", "MeanCov", "Constancy" )]
 CovConst <- melt(differential)
 selectUnits <- unique(as.character(CovConst$SiteUnit))
 len <- length(selectUnits)
-j = 23
-k = 24
+j = 1000
+k = 1001
 
  ##Loop to calculate pairwise diagnostics for every possible combination (returns score for each pair)
 out <- foreach(j = (1:(len-1)), .combine = rbind, .packages = c("foreach","reshape2")) %:% 
