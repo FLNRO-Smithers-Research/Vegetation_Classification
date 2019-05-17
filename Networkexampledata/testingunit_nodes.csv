@@ -1,0 +1,73 @@
+id,media,media.type,media.name,audience.size
+%ASSOC BlLa - Heron s-bill moss,NYT,ASSOC,Newspaper,20
+%ASSOC Picegla-Salix-Hylospl,WaPo,ASSOC,Newspaper,25
+ASSOC Abielas(Larilya)-Vaccmem-Vaccsco-Luzula,WSJ,ASSOC,Newspaper,30
+ASSOC Abielas-Menzfer-Vaccmyt,USAT,ASSOC,Newspaper,32
+ASSOC Abielas-Pinucon-Paximyr-Vaccsco,LATimes,ASSOC,Newspaper,20
+ASSOC Abielas-Rhodalb-Menzfer,CNN,ASSOC,TV,56
+ASSOC Abielas-Rhodalb-Vaccmem-Dicranu,MSNBC,ASSOC,TV,34
+ASSOC Abielas-Vaccmem-Paximyr,FOX ,ASSOC,TV,60
+ASSOC Abieslas-Rhodalb-Vaccmem-Tiartri,ABC,ASSOC,TV,23
+ASSOC BlCwLw-Clinuni,BBC,ASSOC,TV,34
+ASSOC BlFd-Vaccmem-Paximyr,John,ASSOC,NA,NA
+ASSOC BlHw-Vaccmem-Rhytrob,Mary,ASSOC,NA,NA
+ASSOC BlPa - Vaccmem - Cladoni,Paul,ASSOC,NA,NA
+ASSOC Bl-Rhodalb-Tiartri -Arnica,Ted,ASSOC,NA,NA
+ASSOC Picegla-Lupiarc-Hylospl,Tom,ASSOC,NA,NA
+SUBASS Bl - Rhodalb -Tiartri (Luzula wm3),Kate,SubASS,NA,NA
+SUBASS Bl-Gymndry-Equiset(typic),Ed,SubASS,NA,NA
+SUBASS Bl-Gymndry-Ptilcri(typic),Anna,SubASS,NA,NA
+SUBASS Bl-Menzfer-Rhodalb-Xeroten(typic),Dan,SubASS,NA,NA
+SUBASS BlPl-Vaccmem,Nancy,SubASS,NA,NA
+SUBASS Bl-Rhodalb-Gymndry(Tsughet),Sandra,SubASS,NA,NA
+SUBASS Bl-Rhodalb-Menzfer-Tiartri (Rhytrob wm2),Ronda,SubASS,NA,NA
+SUBASS Bl-Rhodalb-Menzfer-Tiartri (typic wm1),Sheila,SubASS,NA,NA
+SUBASS Bl-Rhodalb-Pleusch-Dicranu(Empenig),Jim,SubASS,NA,NA
+SUBASS Bl-Rhodalb-Pleusch-Ptilcri(Hylospl),Jill,SubASS,NA,NA
+SUBASS BlSe-Menzfer (Pleusch),Jo,SubASS,NA,NA
+SUBASS BlSe-Menzfer (typic),Brian,SubASS,NA,NA
+SUBASS BlSe-Rhodalb-Valesit(Tiartri)(dc1),Jason,SubASS,NA,NA
+SUBASS BlSe-Rhodalb-Xeroten,Lisa,SubASS,NA,NA
+SUBASS BlSe-Rhodalb-Xeroten (Arnica),Dave,SubASS,NA,NA
+SUBASS Bl-Vaccmem-Pleusch(Barblyc - mc zonal),,SubASS,,
+SUBASS Bl-Vaccmem-Pleusch(typic),,SubASS,,
+SUBASS Bl-Vaccmem-Pleusch(Vacccae),,SubASS,,
+SUBASS Bl-Vaccmem-Xeroten,,SubASS,,
+SUBASS PlBl-Vaccmem-Vaccsco(typic),,SubASS,,
+SUBASS SeBl-Oplohor-Athyfil(Thujpli),,SubASS,,
+SUBASS Sx-Loniinv-Gymndry(Vibuedu),,SubASS,,
+SUBASS Sx-Oplohor(typic),,SubASS,,
+SUBASS Sxw-Equiset-Aulapal(Caredis),,SubASS,,
+SUBASS Sxw-Equiset-Aulapal(Hylospl),,SubASS,,
+SUBASS Sxw-Equiset-Aulapal(Sphagnu),,SubASS,,
+SUBASS Sxw-Gymndry(Aralnud),,SubASS,,
+SUBASS Sxw-Gymndry(Arnica),,SubASS,,
+SUBASS Sxw-Gymndry(Ptilcri),,SubASS,,
+Ws08.1 SUBASS Piceeng-Equiarv-Valesit (Trolalb Southern),,SubASS,,
+Ws08.2 SUBASS SeBl-Equiarv-Ligucan (southern border),,SubASS,,
+Ws08.3 ASSOC SeBl-Equiarv-Senetri,,ASSOC,,
+Ws08.3 SUBASS Abielas-Piceeng-Equiset-Pleusch (N-S transition),,SubASS,,
+Ws08.3 SUBASS Piceeng-Equiset-Calacan (very wet sites),,SubASS,,
+Ws08.5 SUBASS SeHm-Equiarv-Valesit,,SubASS,,
+%ASSOC Abielas-Oplohor-Rhodalb,,ASSOC,,
+%ASSOC Abielas-Rhodalb-Equiset,,ASSOC,,
+%ASSOC Abielas-Vaccmem-Racomit,,ASSOC,,
+%ASSOC Bl-Equiset-Mnium(Sphagnu),,ASSOC,,
+%ASSOC BlLa - Heron s-bill moss,,ASSOC,,
+%ASSOC Bl-Vaccmem-Racomit,,ASSOC,,
+%ASSOC Piceene-Equiset-Thalocc?,,ASSOC,,
+%ASSOC Picegla-Betunan-Calacan,,ASSOC,,
+%ASSOC Picegla-Betunan-Cladina,,ASSOC,,
+ASSOC Abielas Rhodalb-Vaccvit,,ASSOC,,
+ASSOC Abielas-Menzfer-Vaccmyt,,ASSOC,,
+ASSOC Abielas-Menzfer-Xeroten,,ASSOC,,
+ASSOC Abielas-Piceeng-Menzfer-Gymndry (SE),,ASSOC,,
+ASSOC Abielas-Pinucon-Menzfer-Vaccsco,,ASSOC,,
+ASSOC Abielas-Rhodalb-Menzfer,,ASSOC,,
+ASSOC Abielas-Rhodalb-Vaccsco,,ASSOC,,
+ASSOC Abielas-Vaccmem-Empenig,,ASSOC,,
+ASSOC Abielas-Vaccmem-Paximyr,,ASSOC,,
+ASSOC Abieslas-Rhodalb-Vaccmem-Tiartri,,ASSOC,,
+ASSOC BlFd-Vaccmem-Paximyr,,ASSOC,,
+ASSOC BlPa - Vaccmem - Cladoni,,ASSOC,,
+Ws1? ASSOC Sxw(Cw)-Equiset-Athyfil (ICH),,ASSOC,,

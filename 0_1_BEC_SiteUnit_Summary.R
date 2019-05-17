@@ -41,17 +41,17 @@ rm(list=ls())
 wd=tk_choose.dir(); setwd(wd)
 
 ###Import vegetation plot data produced from 0_BEC_data_import_clean.R script
-load("VegDat_Clean.RData")
+load("VegDat_Lumped.RData")
 
 ##Import hierachy table
-SUhier <- read.csv("AllForestHier.csv", stringsAsFactors = FALSE)
+SUhier <- read.csv("FebHierarchyLevelSU.csv", stringsAsFactors = FALSE)
 colnames(SUhier)[1:12]=c("PlotNumber", "Region", "Class", "Order", "SubOrder", "Alliance", "SubAlliance", "Association", "SubAssociation", "Facies", "Working", "SiteSeries")
 #Create lowest working hierarchical units
 SUhier$SubAssociation <- ifelse(SUhier$SubAssociation == "",SUhier$Association,SUhier$SubAssociation) ##if SubAssoc blank, fill with Association
 SUhier$SubOrder <- ifelse(SUhier$SubOrder == "",SUhier$Order,SUhier$SubOrder)
 SUhier$SubAlliance <- ifelse(SUhier$SubAlliance == "",SUhier$Alliance,SUhier$SubAlliance)
 
-write.csv(SUhier, "AllForestHier_filled.csv")
+write.csv(SUhier, "AllForestHier_filled.csv", row.names = FALSE)
 
 SUhierALL <-SUhier
 #level <- c("SiteSeries")

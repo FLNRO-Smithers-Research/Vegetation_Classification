@@ -1,0 +1,65 @@
+Call:
+rpart(formula = Class ~ ., data = vegData[, -2], method = "class")
+  n= 91 
+
+         CP nsplit rel error    xerror      xstd
+1 0.1730769      0 1.0000000 1.0000000 0.1657484
+2 0.0100000      2 0.6538462 0.9230769 0.1616773
+
+Variable importance
+  PSEUSPI_MeanCov PSEUSPI_Constancy ELYMTRA_Constancy   ELYMTRA_MeanCov HORDJUB_Constancy   HORDJUB_MeanCov 
+               18                15                 8                 8                 8                 7 
+PUCCNUA_Constancy   PUCCNUA_MeanCov KOELMAC_Constancy   KOELMAC_MeanCov DISTSPI_Constancy   DISTSPI_MeanCov 
+                7                 7                 7                 7                 5                 5 
+
+Node number 1: 91 observations,    complexity param=0.1730769
+  predicted class=ORDER Pseuspi (0-20)                     expected loss=0.2857143  P(node) =1
+    class counts:     4     2     2     2     7     8     1    65
+   probabilities: 0.044 0.022 0.022 0.022 0.077 0.088 0.011 0.714 
+  left son=2 (27 obs) right son=3 (64 obs)
+  Primary splits:
+      PSEUSPI_MeanCov   < 0.6611111   to the left,  improve=15.08159, (0 missing)
+      PSEUSPI_Constancy < 32.5        to the left,  improve=14.93584, (0 missing)
+      HORDJUB_Constancy < 37.5        to the right, improve=11.85436, (0 missing)
+      HORDJUB_MeanCov   < 0.0375      to the right, improve=11.69663, (0 missing)
+      PUCCNUA_MeanCov   < 0.5333333   to the right, improve=10.24908, (0 missing)
+  Surrogate splits:
+      PSEUSPI_Constancy < 32.5        to the left,  agree=0.956, adj=0.852, (0 split)
+      ELYMTRA_Constancy < 8.012821    to the right, agree=0.846, adj=0.481, (0 split)
+      ELYMTRA_MeanCov   < 0.009090909 to the right, agree=0.835, adj=0.444, (0 split)
+      KOELMAC_MeanCov   < 0.01148413  to the left,  agree=0.813, adj=0.370, (0 split)
+      KOELMAC_Constancy < 11.80556    to the left,  agree=0.813, adj=0.370, (0 split)
+
+Node number 2: 27 observations,    complexity param=0.1730769
+  predicted class=ORDER Juncbal-Hordjub                    expected loss=0.7037037  P(node) =0.2967033
+    class counts:     4     2     2     1     5     8     1     4
+   probabilities: 0.148 0.074 0.074 0.037 0.185 0.296 0.037 0.148 
+  left son=4 (19 obs) right son=5 (8 obs)
+  Primary splits:
+      HORDJUB_Constancy < 37.5        to the left,  improve=6.674464, (0 missing)
+      HORDJUB_MeanCov   < 0.0375      to the left,  improve=6.037037, (0 missing)
+      PUCCNUA_MeanCov   < 0.5333333   to the left,  improve=5.548148, (0 missing)
+      PUCCNUA_Constancy < 25          to the left,  improve=5.548148, (0 missing)
+      HESPCOM_MeanCov   < 0.05625     to the left,  improve=3.905291, (0 missing)
+  Surrogate splits:
+      HORDJUB_MeanCov   < 0.0375      to the left,  agree=0.963, adj=0.875, (0 split)
+      PUCCNUA_MeanCov   < 0.5333333   to the left,  agree=0.963, adj=0.875, (0 split)
+      PUCCNUA_Constancy < 25          to the left,  agree=0.963, adj=0.875, (0 split)
+      DISTSPI_MeanCov   < 0.0625      to the left,  agree=0.889, adj=0.625, (0 split)
+      DISTSPI_Constancy < 12.5        to the left,  agree=0.889, adj=0.625, (0 split)
+
+Node number 3: 64 observations
+  predicted class=ORDER Pseuspi (0-20)                     expected loss=0.046875  P(node) =0.7032967
+    class counts:     0     0     0     1     2     0     0    61
+   probabilities: 0.000 0.000 0.000 0.016 0.031 0.000 0.000 0.953 
+
+Node number 4: 19 observations
+  predicted class=ORDER Hesperus - Achnanthum (20 series)  expected loss=0.7368421  P(node) =0.2087912
+    class counts:     4     2     2     1     5     0     1     4
+   probabilities: 0.211 0.105 0.105 0.053 0.263 0.000 0.053 0.211 
+
+Node number 5: 8 observations
+  predicted class=ORDER Juncbal-Hordjub                    expected loss=0  P(node) =0.08791209
+    class counts:     0     0     0     0     0     8     0     0
+   probabilities: 0.000 0.000 0.000 0.000 0.000 1.000 0.000 0.000 
+

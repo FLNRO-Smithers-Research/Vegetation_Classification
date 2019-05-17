@@ -1,0 +1,12 @@
+name: VegSuit
+title: VegSuit
+username:
+account: kiri-daust-r
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 263256
+bundleId: 1195264
+url: https://kiri-daust-r.shinyapps.io/VegSuit/
+when: 1517019184.0965
+asMultiple: FALSE
+asStatic: FALSE

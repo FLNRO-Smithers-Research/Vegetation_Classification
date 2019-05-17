@@ -41,7 +41,7 @@ wd=tk_choose.dir(); setwd(wd)
 
 
 ####################Can usually start here - load data from 01 BEC Site Unit Summary script##################
-load ("Order_Differential_data.RData")## choose summary data of desired hierarchical level
+load ("SS_Differential_data.RData")## choose summary data of desired hierarchical level
 
 #### OPTION Subset for just tree species (optional)##################
 load ("VegDat_Clean.RData")
@@ -55,6 +55,7 @@ SUsumData <- SUsumData[SUsumData$Species %in% treeSpp,]
 
 ###################Site Series Cluster analysis for creation of initial subassociations
 #load ("SU_Differential_coverdata.RData")
+colnames (SUsumData) [1] <- "SiteUnit"
 SUsumData2 <- SUsumData[,c("SiteUnit", "Species", "MeanCov")]
 SUcovData2 <- melt(SUsumData2, id.vars = c("SiteUnit","Species"))
 SScovMatrix <- dcast(SUcovData2, SiteUnit ~ Species + variable)###Convert to site unit by species matrix
@@ -63,6 +64,9 @@ rownames(SScovMatrix) <- gsub(" ", "",SScovMatrix$SiteUnit)
 
 ####Cluster diagram
 dd <- dist(scale(SScovMatrix[-1]), method = "euclidean")
+dd <- as.matrix(dd, labels=TRUE)
+########could import a pair-wise matrix here
+colnames(dd) <- rownames(dd) <- SScovMatrix$SiteUnit
 #hc <- hclust(dd, method = "ward.D2")
 flexbeta <- function (dis,beta) 
 {
@@ -72,9 +76,16 @@ flexbeta <- function (dis,beta)
 }
 hc <- flexbeta(dd,-0.25)
 hc <- as.hclust(hc)
+clustgroups <- cutree(as.hclust(hc), 1:3)
+write.csv(clustgroups, "ClusterAnalysisGroups_AbiesSiteSeries.csv")
 dend <- as.dendrogram(hc)
+plot(dend)
 ####plots from ape package
-plot(as.phylo(hc), type = "unrooted", cex = 0.7,no.margin = TRUE, lab4ut = "axial")
+plot(as.phylo(hc), type = "unrooted", cex = 1,no.margin = TRUE, font = 3, lab4ut = "axial", 
+     align.tip.label=TRUE, rotate.tree = 80)
+title ("Abies Site Series")
+#(bp <- boot.phylo(tw, woodmouse, f, quiet = TRUE))
+#drawSupportOnEdges(bp)
 
 #plot(as.phylo(hc), cex = 0.5, label.offset = 0.5)
 #plot(as.phylo(hc), type = "cladogram", cex = 0.5, label.offset = 0.5)
@@ -256,7 +267,7 @@ oldDat <- vegDat.chord[-x,]
 ######################################################################
 #####CREATE EDATOPIC GRIDS WITH VEG STATS IN EACH CELL################
 ###############################################################
-vegAll <- read.table("BecMaster15VegDataSept2018.txt", header = TRUE)
+vegAll <- read.table("BECMasterVeg_Oct26_2018.txt", header = TRUE)
 codeCross <- read.csv("CodeCrosswalk.csv", stringsAsFactors = FALSE)
 
 vegAll <- separate(vegAll, Species, c("Species","Type"), "-", remove = TRUE)
@@ -277,7 +288,7 @@ plotEnv$BGC_LABEL <- gsub("[[:space:]]","",plotEnv$BGC_LABEL)
 plotEnv <- plotEnv[plotEnv$BGC_LABEL != "",]
 colnames(plotEnv)[4] <- "Unit"
 
-modBGC <- read.csv("ModelledBGC.csv", stringsAsFactors = FALSE)
+modBGC <- read.csv("ModelledBGC_Forested.csv", stringsAsFactors = FALSE)
 
 for(i in 1:length(modBGC$BGC)){
   Unit <- modBGC$BGC[i]

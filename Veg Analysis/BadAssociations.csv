@@ -1,0 +1,63 @@
+Group1,Group2,Score,Same Class
+ SxwBl-Rubupar-Arnica, Piceene-Cornsto-Equiset (IDF),9.501831502,Class
+ PlFd-Junicom-Acergla (ESSFs xeric), PlFd(Lw)-Calarub(typic),9.71969697,Order
+ PlFd(Lw)-Calarub(typic), Fd-Junicom(typic),9.310606061,Order
+ PlFd(Lw)-Calarub(typic), Fd-Pseuspi-Calarub(Junicom),9.208333333,Order
+ PlFd(Lw)-Calarub(typic), FdLw-Calarub-Arctuva(typic),7.12254902,Alliance
+ PlFd(Lw)-Calarub(typic), Pseumen(Pinucon)-Calarub-Arctuva,9.35,Alliance
+ PlFd(Lw)-Calarub(typic), Pseumen-Pinucon-Junicom-Calarub,8.850775194,Alliance
+ PlFd(Lw)-Calarub(typic), Fd-Junicom(Acergla),8.467948718,Order
+ PlFd(Lw)-Calarub(typic), FdPl-Junicom-Arctuva (typic),8.537878788,Order
+ Fd-Junicom(typic), Fd-Pseuspi-Calarub(Junicom),8.477272727,Order
+ Fd-Junicom(typic), Fd(Py)-Calarub(typic),9.742014742,Order
+ Fd-Junicom(typic), FdPl-Junicom-Arctuva (typic),9.681818182,Alliance
+ Fd-Pseuspi-Calarub(Junicom), FdLw-Calarub-Arctuva(typic),8.289215686,Order
+ Fd-Pseuspi-Calarub(Junicom), Fd-Junisco-Pseuspi (Arctuva),6.716666667,Order
+ Fd-Pseuspi-Calarub(Junicom), Fd-Sympalb-Mahoaqu(Calarub) (IDFxcZonal),8.852272727,Order
+ Fd-Pseuspi-Calarub(Junicom), FdPy-Pseuspi(Spirbet),8.85,Order
+ Fd-Pseuspi-Calarub(Junicom), Fd-Junicom-Arctuva(typic),9.857142857,Order
+ FdLw-Calarub-Arctuva(typic), Fd(Py)-Calarub(Pleusch),8.970588235,Order
+ FdLw-Calarub-Arctuva(typic), Fd-Sympalb-Mahoaqu(Calarub) (IDFxcZonal),8.766488414,Order
+ FdLw-Calarub-Arctuva(typic), Pseumen(Pinucon)-Calarub-Arctuva,8.305882353,Alliance
+ FdLw-Calarub-Arctuva(typic), Fd(Py)-Calarub(typic),7.917594065,Order
+ FdLw-Calarub-Arctuva(typic), FdPl-Junicom-Arctuva (typic),9.493761141,Order
+ Pseumen-Calarub-Pleusch-Hylospl (Mossy cool aspect), Fd(Py)-Calarub(Pleusch),8.314351272,Alliance
+ Pseumen-Calarub-Pleusch-Hylospl (Mossy cool aspect), Fd-Sympalb-Mahoaqu(Calarub) (IDFxcZonal),6.110251451,Order
+ Pseumen-Calarub-Pleusch-Hylospl (Mossy cool aspect), FdPl-Calarub-Pleusch (typic),8.080509588,Order
+ Pseumen-Calarub-Pleusch-Hylospl (Mossy cool aspect), Fd(Py)-Calarub(typic),9.261357102,Alliance
+ Pseumen-Calarub-Pleusch-Hylospl (Mossy cool aspect), Fd-Mahoaqu-Calarub (Pinucon),7.789228723,Alliance
+ Fd(Py)-Calarub(Pleusch), Fd-Sympalb-Mahoaqu(Calarub) (IDFxcZonal),7.658645276,Order
+ Fd(Py)-Calarub(Pleusch), FdPl-Calarub-Pleusch (typic),9.628903413,Order
+ Fd(Py)-Calarub(Pleusch), Pseumen(Pinucon)-Calarub-Arctuva,7.198039216,Order
+ Fd(Py)-Calarub(Pleusch), Fd(Py)-Calarub(typic),4.809750927,Association
+ Fd(Py)-Calarub(Pleusch), Fd-Mahoaqu-Calarub (Pinucon),7.337622549,Alliance
+ Tsughet-Abieama-Pseumen-Hylospl, Tsughet-Pseumen-Paximyr-Vaccpar,9.007563092,Alliance
+ Tsughet-Abieama-Pseumen-Hylospl, Tsughet-Abieama-Hylospl-Pleusch,9.641128137,Alliance
+ Tsughet-Pseumen-Paximyr-Vaccpar, Hw-Pleusch-Racomit (typic),9.926243568,Class
+ Tsughet-Pseumen-Paximyr-Vaccpar, Pseumen-Pinucon-Arctuva,9.971698113,Order
+ Fd-Sympalb-Mahoaqu(Calarub) (IDFxcZonal), Pseumen-Sympalb-Mahoaqu (Py),6.885167464,Association
+ Fd-Sympalb-Mahoaqu(Calarub) (IDFxcZonal), Fd(Py)-Calarub(typic),4.605651106,Order
+ Fd-Sympalb-Mahoaqu(Calarub) (IDFxcZonal), Fd-Mahoaqu-Calarub,7.584415584,Order
+ Fd-Sympalb-Mahoaqu(Calarub) (IDFxcZonal), Fd-Mahoaqu-Calarub (Pinucon),7.133522727,Order
+ Fd-Sympalb-Mahoaqu(Calarub) (IDFxcZonal), FdPy-Calarub(Py),8.622009569,Order
+ Pseumen-Sympalb-Mahoaqu (Py), Fd(Py)-Calarub(typic),6.036273115,Order
+ FdPl-Calarub-Pleusch (typic), Pseumen(Pinucon)-Calarub-Arctuva,8.964197531,Alliance
+ Pseumen(Pinucon)-Calarub-Arctuva, FdPl-Junicom-Arctuva (typic),9.721212121,Order
+ Fd(Py)-Calarub(typic), FdPy-Calarub(Py),5.77311522,Association
+ Tsughet-Thujpli-Vaccala-Gaulsha, Pinucon-Gausha-Cladina,8.465116279,Class
+ Fd-Mahoaqu-Calarub, Fd-Mahoaqu-Calarub (Pinucon),9.263392857,Association
+ Pseumen-Pinucon-Junicom-Calarub, FdPl-Junicom-Arctuva (typic),9.221987315,Order
+ Thujpli-Mahoner-Achltri, Pseumen-Melisub,8.821428571,Not
+ Thujpli-Mahoner-Achltri, Pseumen-Mahoner-Gaulsha,4.987861811,Not
+ Thujpli-Mahoner-Achltri, Cw-Achltri(Trilova),6.280871671,Alliance
+ Pseumen-Melisub, Pseumen-Mahoner-Gaulsha,4.559290383,Order
+ Pseumen-Melisub, Pseumen-Arbumen,1.891257996,Alliance
+ Pseumen-Mahoner-Gaulsha, Cw-Achltri(Trilova),7.554447768,Not
+ Pseumen-Mahoner-Gaulsha, Pseumen-Arbumen,5.593405521,Order
+ Cw-Achltri(Trilova), Thujpli-Oemlcer,9.894317049,Alliance
+ Tsughet-Abieama-Hylospl-Pleusch, Pinucon-Gausha-Cladina,9.13622291,Class
+ Py-Pseuspi-(Balssag), Py-Pseuspi-Festcam(Balssag),9.673992674,Alliance
+ Pinucon-Gausha-Cladina, Pinucon-Sphagnu(Coast),4.5625,Class
+ FdPl-Junicom-Arctuva (typic), Fd-Junicom-Arctuva(typic),9.061688312,Alliance
+ Pseumen-Pinupon-Pseuspi-Calarub (Balsssag), FdPy-Calarub(Py),9.684210526,Alliance
+ Pl-Vaccsco-Cladoni(Arctuva), Pl-Vaccsco-Cladoni(Junicom-typic),8.344155844,Association

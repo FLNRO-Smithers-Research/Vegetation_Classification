@@ -1,0 +1,272 @@
+
+Call:
+C5.0.formula(formula = Class ~ ., data = vegData[, -2], rules = FALSE)
+
+
+C5.0 [Release 2.07 GPL Edition]  	Thu Aug 02 09:40:25 2018
+-------------------------------
+
+Class specified by attribute `outcome'
+
+Read 1167 cases (83 attributes) from undefined.data
+
+Decision tree:
+
+TSUGHET_MeanCov > 8.657143:
+:...TSUGMER_Constancy > 92.85714: [S1]
+:   TSUGMER_Constancy <= 92.85714: [S2]
+TSUGHET_MeanCov <= 8.657143:
+:...TSUGMER_Constancy > 17.64706: [S3]
+    TSUGMER_Constancy <= 17.64706:
+    :...THUJPLI_Constancy > 59.47712:
+        :...THUJPLI_MeanCov > 11.25: [S4]
+        :   THUJPLI_MeanCov <= 11.25: [S5]
+        THUJPLI_Constancy <= 59.47712:
+        :...PINUPON_MeanCov > 1: [S6]
+            PINUPON_MeanCov <= 1:
+            :...LARILAR_Constancy > 16.66667: ORDER Picemar-Ledugro-Sphagnu (13/1)
+                LARILAR_Constancy <= 16.66667:
+                :...PSEUMEN_MeanCov > 11.125: [S7]
+                    PSEUMEN_MeanCov <= 11.125:
+                    :...ABIELAS_Constancy <= 79.31035: [S8]
+                        ABIELAS_Constancy > 79.31035:
+                        :...BETUPAP_Constancy > 10.52632: [S9]
+                            BETUPAP_Constancy <= 10.52632: [S10]
+
+SubTree [S1]
+
+THUJPLI_Constancy <= 37.5: Tsugmer (MH) (Hm >50%) (10/1)
+THUJPLI_Constancy > 37.5: Thujpli-Tsughet (ICH and CWH) (Hw or Cw >50%) (3)
+
+SubTree [S2]
+
+ABIELAS_Constancy <= 79.24529: Thujpli-Tsughet (ICH and CWH) (Hw or Cw >50%) (213/2)
+ABIELAS_Constancy > 79.24529:
+:...THUJPLI_Constancy > 71.79487: Thujpli-Tsughet (ICH and CWH) (Hw or Cw >50%) (26/1)
+    THUJPLI_Constancy <= 71.79487:
+    :...TSUGHET_MeanCov <= 30: [S11]
+        TSUGHET_MeanCov > 30: [S12]
+
+SubTree [S3]
+
+ALNURUB_MeanCov > 0: Thujpli-Tsughet (ICH and CWH) (Hw or Cw >50%) (2/1)
+ALNURUB_MeanCov <= 0:
+:...PINUCON1_MeanCov > 10: ORDER Pinucon-Chamnoo-Sphagnu (3)
+    PINUCON1_MeanCov <= 10: [S13]
+
+SubTree [S4]
+
+ALNUINC_MeanCov <= 3.75: Thujpli-Tsughet (ICH and CWH) (Hw or Cw >50%) (35/1)
+ALNUINC_MeanCov > 3.75:
+:...ABIELAS_Constancy <= 78.57143: Thujpli-Tsughet (ICH and CWH) (Hw or Cw >50%) (8)
+    ABIELAS_Constancy > 78.57143: Picea (Boreal and Subboreal/MS) (3)
+
+SubTree [S5]
+
+LARIOCC_MeanCov > 7.8: Abielas (ESSF and Coldair) (Bl+Se+Pa >50% or Subalpine indicators) (2)
+LARIOCC_MeanCov <= 7.8:
+:...PSEUMEN_MeanCov <= 5: Picea (Boreal and Subboreal/MS) (12/2)
+    PSEUMEN_MeanCov > 5: [S14]
+
+SubTree [S6]
+
+ABIELAS_MeanCov <= 4.1405: Pseumen (IDF and PP) Fdi or Py leading (101/1)
+ABIELAS_MeanCov > 4.1405:
+:...JUNISCO_MeanCov <= 0.2: Picea (Boreal and Subboreal/MS) (5)
+    JUNISCO_MeanCov > 0.2: Pseumen (IDF and PP) Fdi or Py leading (2)
+
+SubTree [S7]
+
+ARBUMEN_MeanCov > 0: Pseumen2 (Coastal Mediterranean)(Fdc + Coastal) (2)
+ARBUMEN_MeanCov <= 0:
+:...ABIELAS_Constancy > 87.5:
+    :...PINUMON_Constancy <= 10: [S15]
+    :   PINUMON_Constancy > 10: [S16]
+    ABIELAS_Constancy <= 87.5:
+    :...BETUPAP_Constancy > 35: [S17]
+        BETUPAP_Constancy <= 35:
+        :...TAXUBRE_MeanCov > 1: Pseumen (IDF and PP) Fdi or Py leading (2/1)
+            TAXUBRE_MeanCov <= 1:
+            :...ALNUINC_Constancy > 21.42857: Picea (Boreal and Subboreal/MS) (4)
+                ALNUINC_Constancy <= 21.42857: [S18]
+
+SubTree [S8]
+
+ACERMAC_MeanCov > 1: Pseumen2 (Coastal Mediterranean)(Fdc + Coastal) (3)
+ACERMAC_MeanCov <= 1:
+:...PINUCON1_MeanCov > 0: ORDER Kalmia-Sphagnu (3/1)
+    PINUCON1_MeanCov <= 0: [S19]
+
+SubTree [S9]
+
+PSEUMEN_Constancy <= 54.81928: Picea (Boreal and Subboreal/MS) (39/4)
+PSEUMEN_Constancy > 54.81928: Thujpli-Tsughet (ICH and CWH) (Hw or Cw >50%) (3/1)
+
+SubTree [S10]
+
+PINUMON_Constancy > 45.83333: Pseumen (IDF and PP) Fdi or Py leading (3/1)
+PINUMON_Constancy <= 45.83333:
+:...ALNUINC_Constancy > 22.22222: [S20]
+    ALNUINC_Constancy <= 22.22222:
+    :...SALISCO_Constancy > 66.66666: Picea (Boreal and Subboreal/MS) (3)
+        SALISCO_Constancy <= 66.66666:
+        :...PSEUMEN1_MeanCov > 5.2: Picea (Boreal and Subboreal/MS) (9/1)
+            PSEUMEN1_MeanCov <= 5.2:
+            :...PINUCON2_MeanCov > 29.425: Picea (Boreal and Subboreal/MS) (16/3)
+                PINUCON2_MeanCov <= 29.425:
+                :...BETUPAP_MeanCov > 0.4: [S21]
+                    BETUPAP_MeanCov <= 0.4:
+                    :...PSEUMEN_Constancy > 9.090909: [S22]
+                        PSEUMEN_Constancy <= 9.090909: [S23]
+
+SubTree [S11]
+
+BETUPAP_Constancy <= 11.11111: Abielas (ESSF and Coldair) (Bl+Se+Pa >50% or Subalpine indicators) (21/1)
+BETUPAP_Constancy > 11.11111: Picea (Boreal and Subboreal/MS) (3)
+
+SubTree [S12]
+
+POPUTRE_MeanCov <= 0.6: Thujpli-Tsughet (ICH and CWH) (Hw or Cw >50%) (6)
+POPUTRE_MeanCov > 0.6: Picea (Boreal and Subboreal/MS) (2)
+
+SubTree [S13]
+
+ABIELAS_Constancy <= 68.42105: Tsugmer (MH) (Hm >50%) (10)
+ABIELAS_Constancy > 68.42105: Abielas (ESSF and Coldair) (Bl+Se+Pa >50% or Subalpine indicators) (14/3)
+
+SubTree [S14]
+
+POPUTRE_Constancy <= 45.45454: Pseumen (IDF and PP) Fdi or Py leading (4)
+POPUTRE_Constancy > 45.45454: Thujpli-Tsughet (ICH and CWH) (Hw or Cw >50%) (3)
+
+SubTree [S15]
+
+PINUALB_MeanCov <= 0.2333333: Picea (Boreal and Subboreal/MS) (14/2)
+PINUALB_MeanCov > 0.2333333: Abielas (ESSF and Coldair) (Bl+Se+Pa >50% or Subalpine indicators) (3)
+
+SubTree [S16]
+
+ABIELAS_MeanCov <= 8.5: Pseumen (IDF and PP) Fdi or Py leading (2)
+ABIELAS_MeanCov > 8.5: Abielas (ESSF and Coldair) (Bl+Se+Pa >50% or Subalpine indicators) (2)
+
+SubTree [S17]
+
+SALIBEB_Constancy <= 33.33333: Picea (Boreal and Subboreal/MS) (26/6)
+SALIBEB_Constancy > 33.33333: Pseumen (IDF and PP) Fdi or Py leading (2)
+
+SubTree [S18]
+
+PSEUMEN_Constancy > 85.71429: Pseumen (IDF and PP) Fdi or Py leading (52)
+PSEUMEN_Constancy <= 85.71429:
+:...PSEUMEN1_MeanCov > 7.25: Pseumen (IDF and PP) Fdi or Py leading (19)
+    PSEUMEN1_MeanCov <= 7.25:
+    :...JUNISCO_MeanCov <= 0.2: Picea (Boreal and Subboreal/MS) (8/1)
+        JUNISCO_MeanCov > 0.2: Pseumen (IDF and PP) Fdi or Py leading (5)
+
+SubTree [S19]
+
+CHAMNOO_MeanCov > 1: Abielas (ESSF and Coldair) (Bl+Se+Pa >50% or Subalpine indicators) (2/1)
+CHAMNOO_MeanCov <= 1:
+:...TSUGHET_MeanCov <= 5.127778: Picea (Boreal and Subboreal/MS) (195/19)
+    TSUGHET_MeanCov > 5.127778: Thujpli-Tsughet (ICH and CWH) (Hw or Cw >50%) (2)
+
+SubTree [S20]
+
+ABIELAS_MeanCov <= 20.03333: Picea (Boreal and Subboreal/MS) (14)
+ABIELAS_MeanCov > 20.03333: Abielas (ESSF and Coldair) (Bl+Se+Pa >50% or Subalpine indicators) (2)
+
+SubTree [S21]
+
+POPUTRE_MeanCov <= 15.625: Picea (Boreal and Subboreal/MS) (3)
+POPUTRE_MeanCov > 15.625: Abielas (ESSF and Coldair) (Bl+Se+Pa >50% or Subalpine indicators) (2)
+
+SubTree [S22]
+
+ALNUINC_Constancy > 7.142857: Picea (Boreal and Subboreal/MS) (3)
+ALNUINC_Constancy <= 7.142857:
+:...POPUTRE_MeanCov > 0.4: Picea (Boreal and Subboreal/MS) (2)
+    POPUTRE_MeanCov <= 0.4: [S24]
+
+SubTree [S23]
+
+PINUALB_MeanCov > 0.1: Abielas (ESSF and Coldair) (Bl+Se+Pa >50% or Subalpine indicators) (70)
+PINUALB_MeanCov <= 0.1: [S25]
+
+SubTree [S24]
+
+ABIELAS_MeanCov <= 5.41: Picea (Boreal and Subboreal/MS) (2)
+ABIELAS_MeanCov > 5.41: Abielas (ESSF and Coldair) (Bl+Se+Pa >50% or Subalpine indicators) (18/2)
+
+SubTree [S25]
+
+PINUCON2_Constancy <= 75: Abielas (ESSF and Coldair) (Bl+Se+Pa >50% or Subalpine indicators) (113/12)
+PINUCON2_Constancy > 75:
+:...PINUCON2_Constancy <= 85.71429: Picea (Boreal and Subboreal/MS) (3)
+    PINUCON2_Constancy > 85.71429: [S26]
+
+SubTree [S26]
+
+PINUCON2_MeanCov <= 20.46428: Abielas (ESSF and Coldair) (Bl+Se+Pa >50% or Subalpine indicators) (7)
+PINUCON2_MeanCov > 20.46428: Picea (Boreal and Subboreal/MS) (8/2)
+
+
+Evaluation on training data (1167 cases):
+
+	    Decision Tree   
+	  ----------------  
+	  Size      Errors  
+
+	    60   71( 6.1%)   <<
+
+
+	   (a)   (b)   (c)   (d)   (e)   (f)   (g)   (h)   (i)   (j)    <-classified as
+	  ----  ----  ----  ----  ----  ----  ----  ----  ----  ----
+	   237    16     2           3     1                            (a): class Abielas (ESSF and Coldair) (Bl+Se+Pa >50% or Subalpine indicators)
+	    14   334                 1                                  (b): class Picea (Boreal and Subboreal/MS)
+	     1     9   189           1                                  (c): class Pseumen (IDF and PP) Fdi or Py leading
+	                       5                                        (d): class Pseumen2 (Coastal Mediterranean)(Fdc + Coastal)
+	     1     3     1         295                                  (e): class Thujpli-Tsughet (ICH and CWH) (Hw or Cw >50%)
+	     2                            19                            (f): class Tsugmer (MH) (Hm >50%)
+	                             1           2                      (g): class ORDER Kalmia-Sphagnu
+	     1     5                                  12                (h): class ORDER Picemar-Ledugro-Sphagnu
+	           1                             1           3          (i): class ORDER Pinucon-Chamnoo-Sphagnu
+	           6                                   1                (j): class ORDER Schepal-Sphagnu
+
+
+	Attribute usage:
+
+	100.00%	TSUGHET_MeanCov
+	100.00%	TSUGMER_Constancy
+	 83.12%	ABIELAS_Constancy
+	 79.26%	THUJPLI_Constancy
+	 67.44%	PINUPON_MeanCov
+	 58.70%	PSEUMEN_MeanCov
+	 58.18%	LARILAR_Constancy
+	 39.59%	BETUPAP_Constancy
+	 31.11%	ALNUINC_Constancy
+	 30.16%	PSEUMEN_Constancy
+	 25.62%	PINUMON_Constancy
+	 24.68%	PSEUMEN1_MeanCov
+	 22.19%	SALISCO_Constancy
+	 21.17%	PINUCON2_MeanCov
+	 19.79%	BETUPAP_MeanCov
+	 19.62%	PINUCON1_MeanCov
+	 18.68%	PINUALB_MeanCov
+	 17.57%	ACERMAC_MeanCov
+	 17.05%	CHAMNOO_MeanCov
+	 12.68%	ABIELAS_MeanCov
+	 12.08%	ARBUMEN_MeanCov
+	 11.23%	PINUCON2_Constancy
+	  7.71%	TAXUBRE_MeanCov
+	  5.74%	THUJPLI_MeanCov
+	  3.94%	ALNUINC_MeanCov
+	  3.00%	POPUTRE_MeanCov
+	  2.49%	ALNURUB_MeanCov
+	  2.40%	SALIBEB_Constancy
+	  1.80%	LARIOCC_MeanCov
+	  1.71%	JUNISCO_MeanCov
+	  0.60%	POPUTRE_Constancy
+
+
+Time: 0.1 secs
+

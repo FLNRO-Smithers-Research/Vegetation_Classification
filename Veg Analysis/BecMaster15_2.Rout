@@ -1,0 +1,13 @@
+   PlotNumber            Species            Cover       
+ SCA5098:    115   ABIELAS-1 :  22826   Min.   :-2.000  
+ SCA5090:    113   CORNCAN-7 :  21787   1st Qu.: 0.500  
+ SCB2050:    108   PLEUSCH-9 :  21674   Median : 1.300  
+ SCA1012:    105   VACCMEM-4 :  19401   Mean   : 6.494  
+ SCA1011:    104   LINNBOR-12:  18161   3rd Qu.: 5.000  
+ MD036  :    102   HYLOSPL-9 :  18097   Max.   :99.000  
+ (Other):1522617   (Other)   :1401318                   
+null device 
+          1 
+> proc.time()
+   user  system elapsed 
+  27.69    1.31   31.21 

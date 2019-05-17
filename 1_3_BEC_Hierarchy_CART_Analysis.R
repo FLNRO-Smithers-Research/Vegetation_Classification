@@ -44,18 +44,23 @@ wd=tk_choose.dir(); setwd(wd)
 load ("SiteSeries_Differential_data.RData") #siteseries, species, meancov, constancy
 SUsumData$SiteUnit <- as.character (SUsumData$SiteUnit)
 SUsumData$Species <- as.character (SUsumData$Species)
-
+SSsumData <- SUsumData
+colnames (SSsumData) [1] <- "SiteSeries"
 #### OPTION Subset for just tree species (optional)##################
-load ("VegDat_Clean.RData")
+load ("VegDat_Lumped.RData")
 #temp <- separate(temp, Species, c("Species","Type"), "-", remove = TRUE)
-vegData <- vegData[vegData$Type %in% c(1,2),]
-vegData <- vegData[!is.na(vegData$Species),]
-treeSpp <- as.character(unique(vegData$Species))
+#vegData <- vegData[vegData$Type %in% c(1,2),]
+#vegData <- vegData[!is.na(vegData$Species),]
+#treeSpp <- as.character(unique(vegData$Species))
+#save(treeSpp, file="treeSppList.RData")
+##########option reduce to tree species only
+load("treeSppList.RData")
 SSsumData <- SSsumData[SSsumData$Species %in% treeSpp,]
+TreeList <- unique(SSsumData$Species)
 ##############################################################################
 
 ####Read hierachy table
-hierClass <- read.csv("AllForestHier.csv", stringsAsFactors = FALSE)
+hierClass <- read.csv("AllForestHier_filled.csv", stringsAsFactors = FALSE)
 colnames(hierClass)[1:12]=c("PlotNumber", "Region", "Class", "Order", "SubOrder", "Alliance", "SubAlliance", "Association", "SubAssociation", "Facies", "Working", "SiteSeries")
 hierunits <- unique(hierClass[-1])###All non-blank site series
 #HierSumData <- merge(SSsumData, hierunits, by = "SiteSeries" , all.x =  TRUE) # merge summary data and hierarchy
@@ -63,13 +68,14 @@ hierunits <- unique(hierClass[-1])###All non-blank site series
 SSsumData2 <- melt(SSsumData, id.vars = c("SiteSeries","Species"))
 SSsumMatrix <- dcast(SSsumData2, SiteSeries ~ Species + variable)###Convert to site unit by species matrix
 SSsumMatrix[is.na(SSsumMatrix)] <- 0
-hier.level <- hierunits[,c(3,11)] ## select by hierarchy level
+hier.level <- hierunits[,c(3,11)] ## select by hierarchy level. 3 = Order, 11 = site series
 SUsumMatrix <- merge(hier.level, SSsumMatrix, by = "SiteSeries")
 SUsumMatrix$Order <- sub("^$", "NewUnit", SUsumMatrix$Order)
 NewUnitsumMatrix <- SUsumMatrix[SUsumMatrix$Order == "NewUnit", ]
 NewUnitsumMatrix[,2] <- as.factor(NewUnitsumMatrix[,2])
 SUsumMatrix <- SUsumMatrix[!SUsumMatrix$Order == "NewUnit", ]
 SUsumMatrix[,2] <- as.factor(SUsumMatrix[,2])
+save(SUsumMatrix, file= "SUsumMatrix.RData")
 ###FOR NOISE CLUSTERING USE vegData AND GO TO SCRIPT BELOW RULE BASED CLASSIFICATION
 
 ###RULE BASED CLASSIFICATION#####################
@@ -98,9 +104,33 @@ write.csv(temp, "C50WrongSS_Order.csv")
 c5.qual <- sum(compareC5$Same)/length(compareC5$Same)
 write(capture.output(summary(c50.fit)), "c50OrderMod.txt")
 
-#########predict new units in C50 model##################
-NewUnitsumMatrix$Pred <- predict(c50.fit, NewUnitsumMatrix[,-c(1:2)])
-NewUnitPlaced <- NewUnitsumMatrix[,c("SiteSeries","Order","Pred")]
+#########predict new SiteSeries Membership from C50 model##################
+load("NewSS_SummaryData.RData") ## load up vegetation summary data - table NewSSSum
+##retain only tree species option
+load("treeSppList.RData")
+NewSSSum$Species <- as.character(NewSSSum$Species)
+NewSSSum <- NewSSSum[NewSSSum$Species %in% treeSpp,]
+NewSSSum <- NewSSSum[-5]
+TreeList2 <- unique(NewSSSum$Species)
+####convert to matrix
+NewSSSum2 <- melt(NewSSSum, id.vars = c("SiteSeries","Species"))
+NewSSsumMatrix <- dcast(NewSSSum2, SiteSeries ~ Species + variable)
+###########Need to align species with those in C50 Model##
+load("SUsumMatrix.RData")
+NewSSsumMatrix2 = conformveg(NewSSsumMatrix,SUsumMatrix[,-c(1:2)],  fillvalue = 0, verbose=TRUE)
+NewSSsumMatrix2 <- as.data.frame(NewSSsumMatrix2$x)
+NewSSList <- NewSSsumMatrix2[1]
+NewSSsumMatrix2 <- NewSSsumMatrix2[-1]
+NewSSsumMatrix2 <- NewSSsumMatrix2[,order(colnames(NewSSsumMatrix2))]
+NewSSsumMatrix2 <- cbind(NewSSList, NewSSsumMatrix2)
+NewSSsumMatrix2[is.na(NewSSsumMatrix2)] <- 0
+
+load ("vegtreeC50.RData") ## load up saved C50 model
+##########predict membership of new Site Series
+NewSSsumMatrix2$Pred <- predict(c50.fit, NewSSsumMatrix2[,-c(1)])#
+#NewUnitsumMatrix$Pred <- predict(c50.fit, NewUnitsumMatrix[,-c(1:2)])
+
+NewUnitPlaced <- NewSSsumMatrix2[,c("SiteSeries","Pred")]
 write.csv(NewUnitPlaced, "NewUnitPlacement.csv")
 
 
@@ -394,4 +424,27 @@ vegData <- vegData[,c(length(vegData),1:(length(vegData)-1))]
 unique(vegData$Class)
 ##vegData <- vegData[!grepl("SUB|ALLIANCE",vegData$Class),] ##removes units from other classes
 vegData$Class <- as.factor(vegData$Class)
-vegData[is.na(vegData)] <- 0 ###set NAs to 0
+
+
+
+
+#############Cluster Variance
+## Loads data
+data(wetland)
+## This equals the chord transformation
+## (see also \code{\link{decostand}} in package 'vegan')
+wetland.chord = as.data.frame(sweep(as.matrix(wetland), 1,
+                                    sqrt(rowSums(as.matrix(wetland)^2)), "/"))
+
+## Create noise clustering with 3 clusters. Perform 10 starts from random seeds
+## and keep the best solution
+wetland.nc = vegclust(wetland.chord, mobileCenters=3, m = 1.2, dnoise=0.75,
+                      method="NC", nstart=10)
+## Gets cluster variance of fuzzy clusters
+clustvar(wetland.nc)
+## Gets cluster variance of fuzzy clusters after defuzzification
+clustvar(wetland.nc, defuzzify=TRUE)
+## Similar to the previous, this gets cluster variance of defuzzified (i.e. hard) clusters
+clustvar(wetland.chord, cluster=defuzzify(wetland.nc)$cluster)
+## Gets cluster variance of K-means (i.e. hard) clusters
+clustvar(wetland.chord, cluster=kmeans(wetland.chord, centers=3, nstart=10)$cluster)

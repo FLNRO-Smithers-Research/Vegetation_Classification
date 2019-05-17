@@ -1,0 +1,16 @@
+Warning message:
+In scan(file = file, what = what, sep = sep, quote = quote, dec = dec,  :
+  number of items read is not a multiple of the number of columns
+   PlotNumber            Species            Cover       
+ SCA5098:    113   ABIELAS-1 :  22829   Min.   :-1.000  
+ SCA5090:    110   CORNCAN-7 :  21956   1st Qu.: 0.500  
+ SCB2050:    107   PLEUSCH-9 :  21715   Median : 1.000  
+ SCA1011:    104   VACCMEM-4 :  19406   Mean   : 6.447  
+ SCA1012:    103   HYLOSPL-9 :  18267   3rd Qu.: 5.000  
+ MD036  :    100   LINNBOR-12:  18205   Max.   :99.000  
+ (Other):1534547   (Other)   :1412806   NA's   :1       
+null device 
+          1 
+> proc.time()
+   user  system elapsed 
+  26.91    1.57   31.73 

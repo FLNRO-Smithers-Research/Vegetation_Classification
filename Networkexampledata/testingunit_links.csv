@@ -1,0 +1,66 @@
+from,to,weight,type
+SUBASS Bl-Gymndry-Ptilcri(typic),%ASSOC Abielas-Oplohor-Rhodalb,9.649350649,hyperlink
+SUBASS Bl-Rhodalb-Pleusch-Ptilcri(Hylospl),%ASSOC Abielas-Rhodalb-Equiset,8.666666667,hyperlink
+ASSOC Abielas-Vaccmem-Paximyr,%ASSOC Abielas-Vaccmem-Racomit,6.857142857,hyperlink
+SUBASS Bl-Gymndry-Equiset(typic),%ASSOC Bl-Equiset-Mnium(Sphagnu),6.363636364,hyperlink
+ASSOC Abielas(Larilya)-Vaccmem-Vaccsco-Luzula,%ASSOC BlLa - Heron s-bill moss,5.866666667,hyperlink
+%ASSOC BlLa - Heron s-bill moss,%ASSOC Bl-Vaccmem-Racomit,6.333333333,hyperlink
+ASSOC Abielas(Larilya)-Vaccmem-Vaccsco-Luzula,%ASSOC Bl-Vaccmem-Racomit,9.619047619,hyperlink
+ASSOC Abielas-Rhodalb-Menzfer,%ASSOC Bl-Vaccmem-Racomit,11.75824176,hyperlink
+ASSOC Abielas-Vaccmem-Paximyr,%ASSOC Bl-Vaccmem-Racomit,1.523809524,hyperlink
+ASSOC Abieslas-Rhodalb-Vaccmem-Tiartri,%ASSOC Bl-Vaccmem-Racomit,8.925531915,hyperlink
+ASSOC BlFd-Vaccmem-Paximyr,%ASSOC Bl-Vaccmem-Racomit,10.33333333,hyperlink
+ASSOC BlPa - Vaccmem - Cladoni,%ASSOC Bl-Vaccmem-Racomit,5.142857143,hyperlink
+SUBASS Bl-Menzfer-Rhodalb-Xeroten(typic),%ASSOC Bl-Vaccmem-Racomit,11.76923077,hyperlink
+SUBASS BlPl-Vaccmem,%ASSOC Bl-Vaccmem-Racomit,12,hyperlink
+SUBASS Bl-Vaccmem-Xeroten,%ASSOC Bl-Vaccmem-Racomit,8.333333333,hyperlink
+SUBASS Sxw-Equiset-Aulapal(Hylospl),%ASSOC Piceene-Equiset-Thalocc?,10.20731707,hyperlink
+%ASSOC Picegla-Salix-Hylospl,%ASSOC Picegla-Betunan-Calacan,11.28571429,hyperlink
+ASSOC Picegla-Lupiarc-Hylospl,%ASSOC Picegla-Betunan-Cladina,8.583333333,hyperlink
+SUBASS Bl-Rhodalb-Pleusch-Dicranu(Empenig),ASSOC Abielas Rhodalb-Vaccvit,9.675324675,hyperlink
+SUBASS Bl-Vaccmem-Pleusch(typic),ASSOC Abielas Rhodalb-Vaccvit,4.334038055,hyperlink
+ASSOC Abielas-Rhodalb-Menzfer,ASSOC Abielas-Menzfer-Vaccmyt,10.54395604,hyperlink
+ASSOC Abielas-Menzfer-Vaccmyt,ASSOC Abielas-Menzfer-Xeroten,8.630252101,hyperlink
+ASSOC Abielas-Rhodalb-Menzfer,ASSOC Abielas-Menzfer-Xeroten,10.07692308,hyperlink
+SUBASS Bl-Menzfer-Rhodalb-Xeroten(typic),ASSOC Abielas-Menzfer-Xeroten,9.285067873,hyperlink
+SUBASS BlSe-Rhodalb-Xeroten,ASSOC Abielas-Menzfer-Xeroten,11.82352941,hyperlink
+ASSOC Bl-Rhodalb-Tiartri -Arnica,ASSOC Abielas-Piceeng-Menzfer-Gymndry (SE),11.20149254,hyperlink
+SUBASS Bl-Rhodalb-Gymndry(Tsughet),ASSOC Abielas-Piceeng-Menzfer-Gymndry (SE),8.475746269,hyperlink
+SUBASS Bl-Rhodalb-Menzfer-Tiartri (Rhytrob wm2),ASSOC Abielas-Piceeng-Menzfer-Gymndry (SE),10.67748215,hyperlink
+SUBASS Bl-Rhodalb-Menzfer-Tiartri (typic wm1),ASSOC Abielas-Piceeng-Menzfer-Gymndry (SE),9.850746269,hyperlink
+SUBASS BlSe-Menzfer (Pleusch),ASSOC Abielas-Pinucon-Menzfer-Vaccsco,10.03537736,hyperlink
+SUBASS BlSe-Menzfer (typic),ASSOC Abielas-Pinucon-Menzfer-Vaccsco,10.03773585,hyperlink
+SUBASS BlSe-Menzfer (typic),ASSOC Abielas-Rhodalb-Menzfer,7.923076923,hyperlink
+ASSOC Abielas-Pinucon-Paximyr-Vaccsco,ASSOC Abielas-Rhodalb-Vaccsco,9.089506173,hyperlink
+ASSOC Abielas-Rhodalb-Menzfer,ASSOC Abielas-Rhodalb-Vaccsco,10.16144349,hyperlink
+SUBASS BlPl-Vaccmem,ASSOC Abielas-Rhodalb-Vaccsco,11.35802469,hyperlink
+SUBASS Bl-Vaccmem-Pleusch(Barblyc - mc zonal),ASSOC Abielas-Vaccmem-Empenig,9.234113712,hyperlink
+SUBASS Bl-Vaccmem-Pleusch(Vacccae),ASSOC Abielas-Vaccmem-Empenig,9.625,hyperlink
+ASSOC Abielas-Pinucon-Paximyr-Vaccsco,ASSOC Abielas-Vaccmem-Paximyr,5.333333333,hyperlink
+SUBASS BlPl-Vaccmem,ASSOC Abielas-Vaccmem-Paximyr,11.71428571,hyperlink
+ASSOC Abielas-Rhodalb-Vaccmem-Dicranu,ASSOC Abieslas-Rhodalb-Vaccmem-Tiartri,6.659574468,hyperlink
+ASSOC Abielas-Vaccmem-Paximyr,ASSOC Abieslas-Rhodalb-Vaccmem-Tiartri,10.0106383,hyperlink
+ASSOC BlHw-Vaccmem-Rhytrob,ASSOC Abieslas-Rhodalb-Vaccmem-Tiartri,11.7674248,hyperlink
+SUBASS Bl - Rhodalb -Tiartri (Luzula wm3),ASSOC Abieslas-Rhodalb-Vaccmem-Tiartri,9.539361702,hyperlink
+SUBASS BlSe-Rhodalb-Valesit(Tiartri)(dc1),ASSOC Abieslas-Rhodalb-Vaccmem-Tiartri,6.486486486,hyperlink
+SUBASS BlSe-Rhodalb-Xeroten (Arnica),ASSOC Abieslas-Rhodalb-Vaccmem-Tiartri,7.75,hyperlink
+ASSOC Abielas-Vaccmem-Paximyr,ASSOC BlFd-Vaccmem-Paximyr,4.755952381,hyperlink
+ASSOC BlCwLw-Clinuni,ASSOC BlFd-Vaccmem-Paximyr,5.287878788,hyperlink
+%ASSOC BlLa - Heron s-bill moss,ASSOC BlPa - Vaccmem - Cladoni,4.5,hyperlink
+ASSOC Abielas(Larilya)-Vaccmem-Vaccsco-Luzula,ASSOC BlPa - Vaccmem - Cladoni,4,hyperlink
+SUBASS PlBl-Vaccmem-Vaccsco(typic),Ws1? ASSOC Sxw(Cw)-Equiset-Athyfil (ICH),87.95298246,mention
+SUBASS SeBl-Oplohor-Athyfil(Thujpli),Ws1? ASSOC Sxw(Cw)-Equiset-Athyfil (ICH),21.25986842,mention
+SUBASS Sx-Loniinv-Gymndry(Vibuedu),Ws1? ASSOC Sxw(Cw)-Equiset-Athyfil (ICH),26.12865497,mention
+SUBASS Sx-Oplohor(typic),Ws1? ASSOC Sxw(Cw)-Equiset-Athyfil (ICH),82.49013158,mention
+SUBASS Sxw-Equiset-Aulapal(Caredis),Ws1? ASSOC Sxw(Cw)-Equiset-Athyfil (ICH),39.88972431,mention
+SUBASS Sxw-Equiset-Aulapal(Hylospl),Ws1? ASSOC Sxw(Cw)-Equiset-Athyfil (ICH),51.14634146,mention
+SUBASS Sxw-Equiset-Aulapal(Sphagnu),Ws1? ASSOC Sxw(Cw)-Equiset-Athyfil (ICH),37.57894737,mention
+SUBASS Sxw-Gymndry(Aralnud),Ws1? ASSOC Sxw(Cw)-Equiset-Athyfil (ICH),51.12171053,mention
+SUBASS Sxw-Gymndry(Arnica),Ws1? ASSOC Sxw(Cw)-Equiset-Athyfil (ICH),56.90430622,mention
+SUBASS Sxw-Gymndry(Ptilcri),Ws1? ASSOC Sxw(Cw)-Equiset-Athyfil (ICH),45.99896801,mention
+Ws08.1 SUBASS Piceeng-Equiarv-Valesit (Trolalb Southern),Ws1? ASSOC Sxw(Cw)-Equiset-Athyfil (ICH),32.98432251,mention
+Ws08.2 SUBASS SeBl-Equiarv-Ligucan (southern border),Ws1? ASSOC Sxw(Cw)-Equiset-Athyfil (ICH),50.54446461,mention
+Ws08.3 ASSOC SeBl-Equiarv-Senetri,Ws1? ASSOC Sxw(Cw)-Equiset-Athyfil (ICH),16.01754386,mention
+Ws08.3 SUBASS Abielas-Piceeng-Equiset-Pleusch (N-S transition),Ws1? ASSOC Sxw(Cw)-Equiset-Athyfil (ICH),36.69590643,mention
+Ws08.3 SUBASS Piceeng-Equiset-Calacan (very wet sites),Ws1? ASSOC Sxw(Cw)-Equiset-Athyfil (ICH),44.33114035,mention
+Ws08.5 SUBASS SeHm-Equiarv-Valesit,Ws1? ASSOC Sxw(Cw)-Equiset-Athyfil (ICH),71.05921053,mention

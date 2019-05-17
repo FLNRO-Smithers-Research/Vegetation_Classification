@@ -1,0 +1,64 @@
+"","Group","NumSpp","DiffSum","NumPlots"
+"1","%ASSOC Gg22 Achnric-Festsax-Antenar-Galibor",82,54.2,5
+"2","%ASSOC Gg27 Hespcom-Artefri",48,23.75,8
+"3","%ASSOC Gg28 Achnhym-Hespcom",31,18,5
+"4","%Gs11 ASSOC Purstri-Arispur-Opunfra-Syntrur",41,59.8333333333333,3
+"5","%SUBASS Gs03 Artetri-Pseuspi-Tortula",45,22.5,6
+"6","? Ag03 ASSOC Dantint-Arctuva",57,34.1666666666667,3
+"7","?Gg20 SUBASS Achnric-Festsax-Antenar/Cladoni(Hespcur)",66,62.5,3
+"8","?Gg26 ASSOC Arispur-Hespcom-Erigfil",48,30.6666666666667,3
+"9","Ag01 ASSOC Dantint-Vaccsco-Eremcap",111,25.1666666666667,9
+"10","Ag02 ASSOC Dantint-Penspro-Cladina",104,31.4444444444444,9
+"11","ASSOC Gg03 Pseuspi-Seladen",108,33.3076923076923,13
+"12","ASSOC Gg10+12+15 Festcam-(Pseuspi)-Achimil-Cladoni",282,18.462962962963,54
+"13","ASSOC Gg24 Hespcur-Koelmac/Cladoni",147,24.9285714285714,28
+"14","ASSOC Gg25 Sporcry-Hespcom",61,28.95,10
+"15","ASSOC Gs05 Junisco-Artetri-Pseuspi",53,33.875,4
+"16","ASSOC Ro02 Junisco/Seladen-Pseuspi",126,26.625,12
+"17","ASSOC Ro03 Purstri/Seladen-Pseuspi",140,23.0666666666667,15
+"18","ASSOC Rt06 Phillew-Amelaln-Pseuspi",90,18.2272727272727,11
+"19","Ga01.1 SUBASS Distspi [typic]",67,12.3333333333333,21
+"20","Ga01.2 SUBASS Distspi [Spargra]",67,23.95,10
+"21","Ga02.1 SUBASS Puccnua-Hordjub[Puccnua]",43,11.7222222222222,18
+"22","Ga02.2 SUBASS Puccnua-Hordjub[Hordjub]",70,14.6851851851852,27
+"23","Ga02.3 ASSOC Amphnev-Puccnua",13,18,4
+"24","Ga03 ASSOC Carepre",57,29.5,7
+"25","Ga04 ASSOC Descces",47,24.5,3
+"26","Ga05 ASSOC Leymcin",69,12.7,10
+"27","Ga06 ASSOC Suaecal-Puccnua",7,13.75,4
+"28","Ga07 ASSOC Salirub",14,9.07142857142857,7
+"29","Gb01 ASSOC Junicom-Arctuva-Pseuspi",102,36.25,8
+"30","Gb06 ASSOC Ceanvel-Dantspi",50,44.6666666666667,6
+"31","Gb20 ASSOC Amelaln-Sympalb-Junicom/Achimil",153,26.9230769230769,13
+"32","Gb21 Junicom-Arctuva-Fragvir",152,35.2692307692308,13
+"33","Gb51 ASSOC Amelaln - Elymgla",52,50.6,5
+"34","Gb52 ASSOC Rosaaci - Elyminn",71,30.8333333333333,9
+"35","Gb53 ASSOC Sympalb-Amelaln-Rosaaci",157,57.65625,16
+"36","Gg05 ASSOC Pseuspi-Arctuva(ESSF/MS)",68,39.8,5
+"37","Gg10 SUBASS Festcam-Pseuspi-Achimil-Cladoni",186,31.1666666666667,24
+"38","Gg11 SUBASS Festida-Pseuspi",210,34.7413793103448,29
+"39","Gg13 SUBASS Festida-Lupiser",123,33.7916666666667,12
+"40","Gg14 ASSOC Festida-Erioumb",232,26.7407407407407,27
+"41","Gg16 ASSOC Festcam-Erioumb-Eremcap",218,27.8913043478261,46
+"42","Gg17 ASSOC Festida-Pseuspi-Erioumb",149,31.53125,16
+"43","Gg18 ?ASSOC Festida-Pseuspi-Seladen",32,41.5,2
+"44","Gg31 ASSOC Dantspi-Arctuva-Racomit",64,24.875,4
+"45","Gg32 ASSOC Calarub-Arctuva",96,34.5,10
+"46","Gg33 ASSOC Calarub-Penscon",77,32.8,5
+"47","Gg34 Koelmac-",40,58,2
+"48","Gg51 ASSOC Elymtra - Artefri",93,12.875,16
+"49","Ro01.1 SUBASS Seladen-Pseuspi-Tortrua (typic)",297,24.5982142857143,56
+"50","Ro01.2 ASSOC Pseuspi-Tortrua (depauperatum)",270,19.4875,40
+"51","Ro04.1 SUBASS Artetri-Seladen-Pseuspi",212,23.2972972972973,37
+"52","Ro04.2 SUBASS Ericnau-Seladen-Pseuspi",139,19.2727272727273,22
+"53","Rt04 SUBASS Amelaln-Pseuspi",99,10.5,15
+"54","Rt05 SUBASS Artetri-Amelaln-Pseuspi",96,11.2666666666667,15
+"55","SUBASS Artetri-Pseuspi(Antenna)",10,53.5,1
+"56","SUBASS Artetri-Pseuspi(BGxh1 zonal Calomac)",102,28.8636363636364,11
+"57","SUBASS Artetri-Pseuspi(BGxh2 zonalEricnau)",120,33.5555555555556,27
+"58","SUBASS Gg01 Pseuspi-Artefri(Typic)",257,15.7982456140351,57
+"59","SUBASS Gg02 Pseuspi-(Balssag)",330,19.9625,80
+"60","SUBASS Gg04 Pseuspi-Artefri(Poa sec)",134,23.3653846153846,26
+"61","SUBASS Gg21 Achnric-Festsax-Antenar/Cladoni(typic)",132,31.59375,16
+"62","SUBASS Gs02 Artetri-Pseuspi-Sporcry",66,23.1666666666667,12
+"63","SUBASSOC Gg04 Pseuspi-Artefri(Cladoni)",219,22.6,50

@@ -1,0 +1,76 @@
+
+Call:
+C5.0.formula(formula = Class ~ ., data = vegData[, -2], rules = FALSE)
+
+
+C5.0 [Release 2.07 GPL Edition]  	Tue Aug 28 09:32:51 2018
+-------------------------------
+
+Class specified by attribute `outcome'
+
+Read 91 cases (100 attributes) from undefined.data
+
+Decision tree:
+
+HORDJUB_NoPlots > 0: ORDER Juncbal-Hordjub (9/1)
+HORDJUB_NoPlots <= 0:
+:...AGROSCA_Constancy > 20: ORDER Danthon (2)
+    AGROSCA_Constancy <= 20:
+    :...CALARUB_Constancy > 50: ORDER Calarub-Koelmac (2)
+        CALARUB_Constancy <= 50:
+        :...ELYMTRA_Constancy > 33.33333: [S1]
+            ELYMTRA_Constancy <= 33.33333: [S2]
+
+SubTree [S1]
+
+ACHNNEL_MeanCov <= 0.625: ORDER Amelaln-Rosaaci (low boreal brushlands) (2)
+ACHNNEL_MeanCov > 0.625: ORDER Elymtra (low boreal grasslands) (2)
+
+SubTree [S2]
+
+LEYMINN_MeanCov > 0.09090909: ORDER Amelaln-Rosaaci (low boreal brushlands) (2)
+LEYMINN_MeanCov <= 0.09090909:
+:...JUNCBAL_MeanCov > 0: ORDER Hesperus - Achnanthum (20 series) (2)
+    JUNCBAL_MeanCov <= 0:
+    :...ACHNHYM_Constancy > 20: ORDER Hesperus - Achnanthum (20 series) (2)
+        ACHNHYM_Constancy <= 20:
+        :...HESPCOM_MeanCov <= 7.6: ORDER Pseuspi (0-20) (66/1)
+            HESPCOM_MeanCov > 7.6: ORDER Hesperus - Achnanthum (20 series) (2)
+
+
+Evaluation on training data (91 cases):
+
+	    Decision Tree   
+	  ----------------  
+	  Size      Errors  
+
+	    10    2( 2.2%)   <<
+
+
+	   (a)   (b)   (c)   (d)   (e)   (f)   (g)   (h)    <-classified as
+	  ----  ----  ----  ----  ----  ----  ----  ----
+	     4                                              (a): class ORDER Amelaln-Rosaaci (low boreal brushlands)
+	           2                                        (b): class ORDER Calarub-Koelmac
+	                 2                                  (c): class ORDER Danthon
+	                       2                            (d): class ORDER Elymtra (low boreal grasslands)
+	                             6                 1    (e): class ORDER Hesperus - Achnanthum (20 series)
+	                                   8                (f): class ORDER Juncbal-Hordjub
+	                                   1                (g): class ORDER Leymcin
+	                                              65    (h): class ORDER Pseuspi (0-20)
+
+
+	Attribute usage:
+
+	100.00%	HORDJUB_NoPlots
+	 90.11%	AGROSCA_Constancy
+	 87.91%	CALARUB_Constancy
+	 85.71%	ELYMTRA_Constancy
+	 81.32%	LEYMINN_MeanCov
+	 79.12%	JUNCBAL_MeanCov
+	 76.92%	ACHNHYM_Constancy
+	 74.73%	HESPCOM_MeanCov
+	  4.40%	ACHNNEL_MeanCov
+
+
+Time: 0.0 secs
+

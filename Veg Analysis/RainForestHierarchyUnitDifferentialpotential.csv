@@ -1,0 +1,171 @@
+"","Group","NumSpp","DiffSum","NumPlots"
+"1","ASSOC Chamnoo-Tsugmer-Empenig-Cassmer",84,41.125,12
+"2","%ASSOC Tsugmer-Picesit--Calanut-Veravir",54,83.1,5
+"3","%ASSOC Chamnoo-Caltlep",6,6,5
+"4","ASSOC Tsugmer-Ellipyr-Faurcri",34,74.75,2
+"5","?ASSOC Tsugmer-Chamnoo-Coptasp",9,40,1
+"6","ASSOC Tsugmer-Picesit-Calanut-Rhytlor",96,64.8571428571429,14
+"7","ASSOC Tsugmer-Picesit-Vaccini (wh zonals)",138,54.0735294117647,34
+"8","?ASSOC Chamnoo-Sphagnu",61,33.8,5
+"9","SUBASS Hm-Vaccmem(mm2)",213,42.34375,208
+"10","SUBASS Hm-Vaccmem(Rubuped)mm1",218,48.0333333333333,45
+"11","ASSOC Tsugmer-Ellipyr",173,28.364406779661,59
+"12","ASSOC Abielas-Tsugmer-Valesit",27,28.125,4
+"13","ASSOC Tsugmer-Strelan",189,41.4444444444444,45
+"14","%ASSOC Tsugmer-Abielas-Vaccova-Valesit",161,45.3888888888889,45
+"15","Ws55 ASSOC Chamnoo-Tsugmer-Lysiame",45,84.1666666666667,3
+"16","ASSOC Tsughet-Abielas-Gymndry",123,87.7173913043478,23
+"17","?ASSOC Thujpli-Tsughet-Athyfil-Gymndry",18,72,1
+"18","SUBASS CwHw-Gymndry(Rhytrob)",144,66.4166666666667,24
+"19","SUBASS CwHw-Gymndry(typic)",312,63.0572289156626,166
+"20","SUBASS CwHw-Gymndry (Corycor)",176,60.25,22
+"21","SUBASS CwHw-Gymndry(Piceene-Abielas)",151,63.1666666666667,24
+"22","ASSOC Thujpli-Tsughet-Gymndry-Hylospl (ICHwk3,4 zonals)",187,85.8556701030928,97
+"23","SUBASS SxwBl-Gymndry-Pleusch(typic)",133,63.3684210526316,19
+"24","ASSOC Piceene(Tsughet)-Vaccmem-Gymndry",157,99.2368421052632,19
+"25","%SUBASS CwSxw-Gymndry(Fd)",82,127,5
+"26","%SUBASS CwSxw-Gymndry(Bl)",84,44,9
+"27","SUBASS Hw-Vaccmem-Pleusch(Menzfer)",30,102,1
+"28","SUBASS Hw-Pleusch-Racomit (typic)",168,31.2,15
+"29","ASSOC Tsughet-Vaccmem-Rhytrob",87,44.7272727272727,11
+"30","%Ws11 ASSOC Piceene-Abielas-Lysiame",82,93,5
+"31","Ws10 ASSOC Thujpli-Piceene-Lysiame",334,70.9166666666667,42
+"32","SUBASS Thujpli-Tsughet-Lysiame",184,61.7916666666667,24
+"33","%ASSOC Thujpli-Piceene-Caredis",77,59.125,4
+"34","Ws16 ASSOC Thujpli-Tsughet-Equiarv-Athyfil",176,54.0416666666667,12
+"35","%ASSOC Tsughet-Equiset-Sphagnu",70,108.6875,8
+"36","%ASSOC Thujpli-Equiarv-Mnium",108,50.6,5
+"37","?ASSOC Tsughet-Thujpli-Junicom-Paximyr",64,88,2
+"38","SUBASS HwCw-Paximyr(Pleusch)dw3",170,62.828125,32
+"39","SUBASS CwFd-Chimumb-Linnbor(Rhytrob)dw1",167,65.65,40
+"40","SUBASS CwFd - Chimumb dw4",132,54.5108695652174,46
+"41","SUBASS Hw-Oplohor(Menzfer)",84,61.875,16
+"42","ASSOC Tsughet-Oplohor (northern)",150,83.9,25
+"43","SUBASS Hw-Oplohor(Dryoexp)",91,69.4166666666667,18
+"44","SUBASS CwHw-Oplohor-Gymndry(Hylospl)",170,79.2659574468085,47
+"45","SUBASS CwHw-Oplohor-Athyfil(Brachyt)",398,72.4926829268293,205
+"46","SUBASS CwHw-Oplohor-Athyfil(Abielas)",131,103.9875,40
+"47","ASSOC Thujpli-Piceene-Oplohor-Equiset",168,129.590909090909,11
+"48","ASSOC Thujpli-Piceene-Oplohor",167,69.6041666666667,24
+"49","?ASSOC Thujpli-Oplohor-Mattstr",57,108.166666666667,3
+"50","ASSOC Thujpli-Oplohor-Gymndry",108,51.8333333333333,12
+"51","SUBASS Hw-Clinuni-Rhytrob",81,51.2,10
+"52","SUBASS HwSxw-Hylospl(Proshoo)",68,80.8333333333333,3
+"53","SUBASS HwCwSxw-Hylospl(typic)",139,61.0454545454545,55
+"54","SUBASS HwCwSxw-Hylospl(Rubupar)",92,79,9
+"55","SUBASS HwCw-Paximyr(Fd)",120,49.2222222222222,18
+"56","SUBASS HwCw-Paximyr(Rhytrob) (mw4)",213,51.1575342465753,73
+"57","SUBASS HwCw - Paximyr(Lw) (mw5)",101,52.28125,16
+"58","SUBASS HwCw-Paximyr(Ptilcri) (mw1)",100,53,11
+"59","SUBASS HwCw-Paximyr (Hylospl) (mw3)",154,51.2222222222222,36
+"60","SUBASS HwCw-Paximyr(typic) (mw2)",106,52.825,20
+"61","?ASSOC Thujpli-Popubal-Rubupar-Aralnud",40,107.5,2
+"62","%ASSOC Thujpli-Tsughet-Tiartri",65,46.125,4
+"63","SUBASS HwSxl-Hylospl(Abielas)",133,51.6274509803922,51
+"64","SUBASS HwSxl-Hylospl(Dicrfus)",53,56.1,5
+"65","SUBASS HwSxl-Hylospl(typic)",59,37.0714285714286,14
+"66","SUBASS HwSxl-Hylospl(Thujpli)",187,43.758389261745,149
+"67","ASSOC Thujpli-Piceene-Rubupar-Loniuta",170,58.375,16
+"68","?ASSOC Thujpli-Piceene-Rubupar",78,179.166666666667,3
+"69","ASSOC Thujpli-Piceene-Paximyr-Pyroasa (ICHdk zonal)",112,118.454545454545,11
+"70","SUBASS CwSxw-Paximyr-Shepcan(Oryzasp)",81,84.875,4
+"71","SUBASS CwSxw-Paximyr-Shepcan(Pinucon)",81,83.2777777777778,9
+"72","SUBASS CwSxw-Paximyr(Lw)",134,49.4375,16
+"73","SUBASS CwSxw-Paximyr(Loniuta)",192,57.578431372549,51
+"74","SUBASS CwSxw-Paximyr(Maiaste)",124,119.666666666667,18
+"75","SUBASS CwSxw-Paximyr(typic)",141,54.9259259259259,27
+"76","SUBASS CwSxw-Paximyr(Poputre)",49,92.25,4
+"77","ASSOC CwSx-Corncan",75,61.4,5
+"78","$ASSOC Thujpli-Pseumen-Paximyr",41,27.75,12
+"79","ASSOC Thujpli-Pseumen-Acergla-Aralnud",197,31.2758620689655,29
+"80","ASSOC Thujpli-Pseumen-Corycor-Aralnud",135,58.4761904761905,21
+"81","SUBASS FdCw-Paximyr-Xeroten",54,63.2,5
+"82","SUBASS FdCw-Paximyr-Chimumb(Rhytrob)",177,62.3611111111111,54
+"83","SUBASS FdCw-Paximyr-Chimumb (Pl)",159,54.7368421052632,19
+"84","%ASSOC Pseumen-Thujpli-Rubupar-Aralnud",122,74,8
+"85","ASSOC Pseumen-Thujpli-Acergla-Chimumb (IDFmw zonals)",340,50.1903225806452,155
+"86","%ASSOC Pseumen-Thujpli-Tsughet-Paximyr-Hylospl%",37,37.875,4
+"87","SUBASS PlYc-Empenig-Racomit(Hw)",153,49.027027027027,37
+"88","SUBASS PlYc-Empenig-Racomit(Descces)",94,53.5666666666667,15
+"89","ASSOC Pinucon-Chamnoo-Thujpli-Gaulsha-Sphagnu",19,84,1
+"90","ASSOC CwYcPl-Coptasp (bog forest)",182,119.725,20
+"91","ASSOC Pinucon-Sphagnu(Coast)",83,35.75,10
+"92","ASSOC YcHm - Coptasp",97,64.1785714285714,14
+"93","ASSOC Thujpli-Chamnoo-Gaulsha-Coptasp",294,72.6628571428571,175
+"94","?ASSOC Thujpli-Vaccovt",27,43.5,2
+"95","SUBASS HwCw-Gaulsha-Blecspi(typic)",100,58.0945945945946,37
+"96","SUBASS CwHw-Gaulsha-Blecspi(YcSs) vh3",177,64.2022900763359,131
+"97","SUBASS HwCw-Gaulsha-Blecspi(Yc Vaccala) vh2",260,61.1695205479452,292
+"98","SUBASS HwCw-Gaulsha-Blecspi(Ba) vh1",140,54.7717391304348,46
+"99","ASSOC HwCw - Gaulsha - Eurhore",67,58.7948717948718,39
+"100","ASSOC Tsughet-Thujpli-Vaccala-Gaulsha",139,50.1888888888889,45
+"101","ASSOC Tsughet-Pseumen-Rhyttri",196,43.0539215686275,102
+"102","ASSOC Pseumen-Pinucon-Arctuva",111,39.9117647058823,17
+"103","SUBASS FdHw-Gaulsha-Vaccpar(Rosagym)",193,24.8152173913043,46
+"104","SUBASS FdHw-Gaulsha-Vaccpar(typic)",260,45.6437908496732,153
+"105","SUBASS FdHw-Gaulsha-Vaccpar(Plagund)",167,54.021186440678,118
+"106","SUBASS FdHw-Gaulsha-Vaccpar(Cladina)",58,44.9,5
+"107","ASSOC Pseumen-Tsughet-Gaulsha-Mahoner (xm zonals)",196,51.9876543209877,162
+"108","?ASSOC Thujpli-Polygly",12,62,1
+"109","ASSOC Tsughet-Vaccala-Dryoexp",107,47.3768115942029,69
+"110","SUBASS HwSs-Rhytlor(Cw)",202,48.7448559670782,243
+"111","SUBASS HwSs-Rhytlor(Yc)",135,52.6234567901235,81
+"112","ASSOC Tsughet-Vaccala-Hylospl",67,36.2083333333333,12
+"113","ASSOC CwSs-Polymun",131,52.3857142857143,35
+"114","ASSOC BaSs - Polymun",102,64.53125,16
+"115","SUBASS Ss-Gaulsha-Maiadil(typic)",95,44.0689655172414,29
+"116","?ASSOC Picesit-Tsughet-Thujpli-Gaulsha",30,32.75,4
+"117","ASSOC Picesit-Eurhore",63,45.9,15
+"118","ASSOC Picesit-Calanut",109,32.0681818181818,22
+"119","SUBASS Ba-Rubuped(ws1)",140,45.8039215686275,51
+"120","SUBASS Ba-Rubuped(Clinuni)",149,43.027027027027,37
+"121","SUBASS Ba-Rubuped(ws2)",183,49.4810126582279,158
+"122","ASSOC Tsughet-Abieama-Pseumen-Hylospl",250,36.6262798634812,293
+"123","ASSOC Tsughet-Abieama-Hylospl-Pleusch",116,30.2586206896552,29
+"124","ASSOC Tsughet-Pseumen-Paximyr-Vaccpar",154,27.5074626865672,67
+"125","SUBASS Ba-Streamp-Strelan(typic)",27,61,2
+"126","SUBASS HwBa-Blecspi-Tiartri",277,49.1775147928994,169
+"127","SUBASS Ba-Blecspi(typic)",99,64,23
+"128","SUBASS Ba-Blecspi(vm2)",201,46.1975,200
+"129","SUBASS Ba-Blecspi(vm1)",12,64.5,1
+"130","ASSOC Tsughet-Abieama-Pseumen-Vaccala",150,47.0948275862069,58
+"131","SUBASS Cw-Achltri(Trilova)",125,31.0322580645161,62
+"132","SUBASS Cw-Achltri(Acermac)",56,37.3333333333333,15
+"133","ASSOC Thujpli-Oemlcer",79,35.875,16
+"134","ASSOC Thujpli-Mahoner-Achltri",148,28.775,60
+"135","ASSOC Tsughet-Picesit-Abieama-Rubuspe-Polymun",24,37.25,2
+"136","ASSOC Thujpli-Pseumen-Acercir",108,40.35,20
+"137","ASSOC Thujpli-Tsughet-(FdBa) Achltri",86,54.8125,8
+"138","ASSOC Tsughet-Thujpli-Pseumen-Polymun-Blecspi",119,49.9878048780488,41
+"139","ASSOC Pseumen-Polymun",59,62.1923076923077,13
+"140","SUBASS FdHw-Achltri(Tiartri)",316,48.3290322580645,155
+"141","SUBASS FdHw-Achltri(Polymun)",214,51.0277777777778,126
+"142","ASSOC Picesit-Careobn",55,61.3,5
+"143","ASSOC Picesit-Triscan (HG mid bench)",123,62.5,19
+"144","ASSOC Picesit-Maiadil (HG high bench)",110,42.5833333333333,30
+"145","SUBASS SsYc - Veravir - Conocon",84,89.85,10
+"146","SUBASS SsYc-Gymndry",91,76.3055555555556,18
+"147","ASSOC Picesit-Tsughet-Oplohor-Rubuspe-Gymndry",206,57.9666666666667,90
+"148","ASSOC Picesit-Acermac-Oplohor-Rubuspe-Maiadil",107,77.3,20
+"149","SUBASS Ba-Oplohor(Gymndry)",166,55.2666666666667,60
+"150","SUBASS Ba-Oplohor(typic)",304,57.3322580645161,155
+"151","ASSOC Picesit-Gymndry",83,66.7391304347826,23
+"152","ASSOC Picesit-Oplohor",137,78.2884615384615,52
+"153","ASSOC CwSs - Devils club",145,47.6532258064516,62
+"154","%ASSOC Thujpli-Pseumen-Gymndry",67,74.4,5
+"155","ASSOC Thujpli-Pseumen-Oplohor",146,55.1730769230769,26
+"156","Ws58 ASSOC ",74,81.25,10
+"157","Ws53 ASSOC Thujpli - Polymun - Lysiame",113,28.5909090909091,22
+"158","Ws56 ASSOC CwSs-Lysiame(Gaulsha)",220,74.2214285714286,70
+"159","Ws57 ASSOC HwSs-Vaccala-Lysiame",33,50.2,5
+"160","SUBASS CwHw-Lysiame(typic)",110,55.59375,16
+"161","SUBASS CwHw-Lysiame(inops)",191,24.4264705882353,34
+"162","ASSOC Picesit-Rubuspe",93,70.5555555555556,9
+"163","SUBASS CwSs-Tiartri(typic)",174,57.2696629213483,89
+"164","SUBASS CwSs-Conocon",86,54.2727272727273,11
+"165","ASSOC Pinucon-Gausha-Cladina",110,14.3888888888889,27
+"166","%ASSOC Tsughet-Arctuva-Cladoni",108,62.3,5
+"167","ASSOC Pseumen-Arbumen",235,22.5,69
+"168","ASSOC Pseumen-Melisub",145,18.8571428571429,21
+"169","ASSOC Pseumen-Racocan-Cladina",195,16.375,48
+"170","ASSOC Pseumen-Mahoner-Gaulsha",194,23.3196202531646,158

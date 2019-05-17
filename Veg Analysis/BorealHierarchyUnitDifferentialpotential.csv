@@ -1,0 +1,351 @@
+"","Group","NumSpp","DiffSum","NumPlots"
+"1","ASSOC BlSe-Vaccsco-Valesit (xc zonals)",158,52.12,50
+"2","SUBASS BlSe-Vaccsco-Barblyc",99,33.5625,8
+"3","SUBASS BlSe - Vaccsco (Pa)",147,34.1666666666667,18
+"4","SUBASS BlSe-Menzfer (Tiartri)",151,47.71875,16
+"5","SUBASS BlSe-Menzfer (Pleusch)",134,55.2291666666667,24
+"6","SUBASS BlSe-Menzfer (typic)",116,39.1666666666667,21
+"7","ASSOC Abielas-Rhodalb-Menzfer",102,47.3076923076923,13
+"8","ASSOC Abielas-Pinucon-Menzfer-Vaccsco",193,55.7358490566038,53
+"9","ASSOC Bl-Vaccsco-Dicranu(Linnbor)xc3",205,40.436170212766,47
+"10","SUBASS BlPl-Vaccsco-Cladoni(typic)",145,44.55,20
+"11","SUBASS BlPl-Vaccsco-Cladoni(Abielas)",134,34.1875,24
+"12","ASSOC PlBl-Vaccsco(Calarub)",123,24.8666666666667,15
+"13","ASSOC Abielas-Pinucon-Paximyr-Vaccsco",149,47.9375,24
+"14","SUBASS PlBl-Vaccmem-Vaccsco(typic)",175,35.52,75
+"15","SUBASS BlPl-Vaccmem",46,42.4375,8
+"16","ASSOC Abielas-Rhodalb-Vaccsco",190,54.8086419753086,81
+"17","Sk24 ASSOC BlLa-Vaccsco",136,34.375,12
+"18","ASSOC Abielas(Larilya)-Vaccmem-Vaccsco-Luzula",109,39.1,15
+"19","%ASSOC BlLa - Heron s-bill moss",80,20.75,6
+"20","ASSOC Abielas-Rhodalb-Empenig",95,56.3333333333333,18
+"21","ASSOC Abielas-Menzfer-Vaccmyt",64,50.3214285714286,14
+"22","ASSOC Pinualb-Abielas-Junicom-Shepcan",111,39.7692307692308,13
+"23","ASSOC BlPa - Vaccmem - Paximyr",104,34.5,11
+"24","?ASSOC Pinualb-Abielas-Junicom-Cladoni",17,31.25,2
+"25","%ASSOC Pinualb-Abielas-Cladoni%",72,35.9166666666667,6
+"26","%ASSOC Pinualb-Abielas-Junicom-Vaccsco",55,52,5
+"27","%ASSOC Abielas-Pinualb-Arnicor",54,54.8,5
+"28","ASSOC Abielas-Vaccmem-Paximyr",168,29.8333333333333,21
+"29","ASSOC BlCwLw-Clinuni",97,54,11
+"30","ASSOC BlFd-Vaccmem-Paximyr",153,46.25,24
+"31","%ASSOC BlPl-Vaccmem-Xeroten",83,71.2777777777778,9
+"32","%ASSOC BlFd--Vaccmem-Xeroten-Racomit",72,54.25,4
+"33","%ASSOC Pinucon-Vaccsco-Racomit",55,24.875,4
+"34","%ASSOC Abielas-Vaccmem-Racomit",87,40.1428571428571,7
+"35","SUBASS PlBl-Cladina(Dicranu)",63,41.5714285714286,7
+"36","SUBASS PlBl-Cladina(Vaccmyl)",49,58.5,2
+"37","SUBASS PlBl-Cladina(Sterpas)",19,75,1
+"38","SUBASS PlBl-Vaccmem-Cladoni(Pinualb)",84,52.2,10
+"39","SUBASS PlBl-Vaccmem-Cladoni(typic)",81,32.25,8
+"40","SUBASS Bl-Vaccmem-Pleusch(Barblyc - mc zonal)",164,44.7608695652174,23
+"41","SUBASS Bl-Vaccmem-Pleusch(Vacccae)",87,54.125,8
+"42","SUBASS Bl-Vaccmem-Pleusch(typic)",225,45.453488372093,43
+"43","?ASSOC Abielas-Vaccmem-Ribelac",70,107.333333333333,3
+"44","ASSOC Abielas-Vaccmem-Empenig",107,26.8076923076923,13
+"45","?ASSOC Abielas-Vaccmem-Rubupar%",57,114.25,2
+"46","ASSOC Abielas-Menzfer-Ribelac",172,54.8913043478261,23
+"47","%ASSOC Pinucon-Empenig-Cladina",56,53.375,4
+"48","ASSOC BlHw-Vaccmem-Rhytrob",125,57.0689655172414,29
+"49","%ASSOC Abielas-Tsugmer-Strelan (ESSFmk zonal)",88,39.1578947368421,19
+"50","SUBASS BlBa-Rhodalb-Rubuped(Valesit)",85,70.8636363636364,11
+"51","SUBASS BaBl-Rhodalb-Rubuped(Vaccovl)",79,56.6842105263158,19
+"52","SUBASS BlBa-Vaccmem-Pleusch(Pl)",80,61.5714285714286,7
+"53","SUBASS BlBa-Vaccmem-Pleusch(Hylospl)",72,44.9285714285714,7
+"54","ASSOC Abielas-Abieama-Rubuped-Rhytrob (ESSFmw alternate zonal)",80,50.0555555555556,9
+"55","%ASSOC Abielas-Abieama-Menzfer-Rubuped(mw2 alt)",50,50.5,7
+"56","ASSOC Abielas-Abieama-Vaccmem-Dicranu",47,60.55,10
+"57","SUBASS BlHm-Vaccmem(Pleusch)",96,52.6111111111111,9
+"58","SUBASS BlHm-Vaccmem(Dicrfus)",21,60,2
+"59","SUBASS BlHm-Vaccmem(Menzfer)",139,58.6911764705882,34
+"60","?ASSOC Abielas-Tsugmer-Gymndry",63,55.0833333333333,6
+"61","SUBASS Pa-Cladoni-Dicrfus(Menzfer)",65,51.8,10
+"62","SUBASS Pa-Cladoni-Dicrfus(Cassmer)",74,40,8
+"63","ASSOC Abielas-Picemar-Ledugro",124,73.9117647058823,17
+"64","SUBASS Bl - Rhodalb -Tiartri (Luzula wm3)",91,60.65,20
+"65","SUBASS Bl-Rhodalb-Menzfer-Tiartri (Rhytrob wm2)",132,65,23
+"66","SUBASS Bl-Rhodalb-Menzfer-Tiartri (typic wm1)",129,53.6818181818182,22
+"67","SUBASS Bl-Rhodalb-Menzfer-Tiartri (Vaccmyt wm4)",79,59.15625,16
+"68","%ASSOC Abielas-Menzfer-Rhodalb",44,62.6,5
+"69","SUBASS Bl-Menzfer-Rhodalb-Xeroten(typic)",96,55.6153846153846,13
+"70","SUBASS BlSe-Rhodalb-Xeroten",84,51.3478260869565,23
+"71","SUBASS BlSe-Rhodalb-Xeroten (Arnica)",123,61.953125,32
+"72","SUBASS Bl-Vaccmem-Xeroten",66,30.9166666666667,6
+"73","ASSOC Abielas-Menzfer-Xeroten",82,59.7352941176471,17
+"74","SUBASS BlSe-Rhodalb-Valesit(Veravir)",93,87.7727272727273,11
+"75","SUBASS BlSe-Rhodalb-Valesit(Pleusch)(dc3)",138,60.953125,32
+"76","SUBASS BlSe-Rhodalb-Valesit(Vaccsco)(dc2)",169,63.1627906976744,43
+"77","SUBASS BlSe-Rhodalb-Valesit(Tiartri)(dc1)",124,67.4594594594595,37
+"78","ASSOC Abielas-Rhodalb-Vaccmem-Dicranu",75,41.6666666666667,15
+"79","ASSOC Abieslas-Rhodalb-Vaccmem-Tiartri",187,47.968085106383,47
+"80","SUBASS Bl-Rhodalb-Rubuped-Dicranu(Menzfer)",121,52.228813559322,59
+"81","SUBASS Bl-Rhodalb-Pleusch-Dicranu(Pinualb)",124,55.0813953488372,43
+"82","SUBASS Bl-Rhodalb-Pleusch-Dicranu(Empenig)",75,36.5,7
+"83","SUBASS Bl-Rhodalb-Pleusch-Dicranu(typic)",139,39.2692307692308,52
+"84","ASSOC BlPa - Vaccmem - Cladoni",121,35.71875,16
+"85","%ASSOC Bl-Vaccmem-Racomit",125,28.8571428571429,7
+"86","ASSOC Bl-Rhodalb-Woodrush",147,36.3879310344828,58
+"87","%ASSOC Bl-Tiartri-Pleusch",89,56.9285714285714,7
+"88","ASSOC Bl-Rhodalb-Tiartri -Arnica",94,75.25,12
+"89","SUBASS BlHw-Rhodalb-Tiartri(Rhytrob)",114,64.9038461538461,26
+"90","SUBASS BlHw-Rhodalb-Tiartri(Gymndry)",116,62.4714285714286,35
+"91","SUBASS BlHw-Rhodalb-Tiartri(Menzfer)",112,69.5526315789474,19
+"92","ASSOC BlSe-Rhodalb-Tiartri (mh zonals)",94,62.06,25
+"93","ASSOC BlSe-Menzfer-Tiartri",142,42.3235294117647,17
+"94","ASSOC Abielas Rhodalb-Vaccvit",74,56.5909090909091,11
+"95","SUBASS Bl-Rhodalb-Pleusch-Ptilcri(Hylospl)",163,62.65625,32
+"96","SUBASS Bl-Rhodalb-PleuschPtilcri(Pinucon)",64,66.6,5
+"97","SUBASS Bl-Rhodalb-Pleusch-Ptilcri(Ribetri)",187,58.22,50
+"98","SUBASS Bl-Rhodalb-Pleusch-Ptilcri(Dicrsco)",107,66.4705882352941,17
+"99","SUBASS Bl-Rhodalb-Pleusch-Ptilcri(typic)",143,72.9230769230769,39
+"100","%ASSOC Abielas-Rhodalb-Equiset",110,70.1666666666667,6
+"101","%ASSOC Piceene-Betunan-Aulapal",91,65.5,4
+"102","ASSOC Abielas-Gymndry-Equiset (Northern)",44,148.5,1
+"103","SUBASS Bl-Gymndry-Equiset(Tsugmer)",69,83.8333333333333,3
+"104","SUBASS Bl-Gymndry-Equiset(typic)",176,37.6136363636364,22
+"105","SUBASS Bl-Gymndry-Equiset(Mertpan)",74,118.333333333333,3
+"106","ASSOC Abielas-Athyfil-Equiset",180,82.1538461538461,13
+"107","%ASSOC Bl-Equiset-Mnium(Sphagnu)",184,58.9545454545455,11
+"108","%ASSOC SeBl-Equiarv-Gymndry",111,70.8333333333333,6
+"109","Ws08.5 SUBASS SeHm-Equiarv-Valesit",144,56.1875,8
+"110","Ws08.1 SUBASS Piceeng-Equiarv-Valesit (Trolalb Southern)",274,49.8617021276596,47
+"111","SUBASS Piceng-Equiarv-Valesit (Leptpyr)",118,61.3333333333333,9
+"112","SUBASS Piceeng-Equiarv-Valesit (Vaccovl)",147,86.6666666666667,6
+"113","SUBASS Piceeng-Equivar-Valesit(Petafri)",167,51.2368421052632,19
+"114","Ws08.2 SUBASS SeBl-Equiarv-Ligucan (southern border)",230,73.0172413793103,29
+"115","Ws08.3 ASSOC SeBl-Equiarv-Senetri",113,43.5555555555556,9
+"116","Ws08.3 SUBASS Abielas-Piceeng-Equiset-Pleusch (N-S transition)",109,49.4444444444444,9
+"117","ASSOC Piceeng-Abielas-Equiarv-Valesit",108,87,3
+"118","Ws08.3 SUBASS Piceeng-Equiset-Calacan (very wet sites)",214,47.8125,24
+"119","ASSOC Bl-Valesit-Barbilo",154,60.7631578947368,38
+"120","ASSOC Abielas-Valesit-Arnica(dry)",169,47.5967741935484,31
+"121","ASSOC Bl-Senetri-Ligucan (S Columbia)",246,55.0681818181818,44
+"122","SUBASS Bl-Valesit-Veravir-Trolalb",209,53.8518518518518,27
+"123","SUBASS Bl-Valesit-Tiarell (Strelan)",258,64.2340425531915,47
+"124","SUBASS Bl-Valesit-Tiarell (Erigper)",131,63.8928571428571,14
+"125","SUBASS Bl-Gymndry-Valesit(Abieama)",73,77,6
+"126","SUBASS Bl-Valesit-Trollax (Rhodneo)",137,72.7916666666667,12
+"127","SUBASS Bl-Valesit-Trollax",243,59.4285714285714,49
+"128","%ASSOC Bl-Valesit-Thalocc-Aulapal",98,89.5,6
+"129","%ASSOC Abielas-Valesit-Saniunc",73,79.3333333333333,3
+"130","%ASSOC Abielas-Valesit-Luzula (woodland)",44,33.5,4
+"131","SUBASS Bl-Gymndry-Ptilcri(Mertpan)",80,115.1,10
+"132","SUBASS Bl-Gymndry-Ptilcri(Brachyt)",152,89.7758620689655,29
+"133","SUBASS Bl-Gymndry-Ptilcri(Aralnud)",46,65.1,5
+"134","SUBASS Bl-Gymndry-Ptilcri(typic)",225,58.0974025974026,77
+"135","SUBASS Bl-Rhodalb-Gymndry(Clinuni)",115,75.1666666666667,21
+"136","SUBASS Bl-Rhodalb-Gymndry(Menzfer)",232,83.1646341463415,82
+"137","SUBASS Bl-Rhodalb-Gymndry(Rhytrob)",194,63.6363636363636,44
+"138","SUBASS Bl-Rhodalb-Gymndry(Tsughet)",125,81.0625,32
+"139","SUBASS Bl-Athyfil-Gymndry(Veravir)",59,84.6,5
+"140","SUBASS Bl-Athyfil-Gymndry(Menzfer)",100,82.2857142857143,14
+"141","SUBASS Bl-Athyfil-Gymndry(Alnuvir)",119,86.5,13
+"142","SUBASS Bl-Athyfil-Gymndry(Rhodalb)",159,92.0526315789474,19
+"143","ASSOC Abielas-Piceeng-Menzfer-Gymndry (SE)",226,70.044776119403,67
+"144","ASSOC SeBl-Ribelac-Gymndry",208,69.1052631578947,19
+"145","ASSOC Abielas-Gymndry-Dicranu",155,61.28,25
+"146","%ASSOC AbielasPiceeng-Gymndry-Rubuped",89,76.1111111111111,9
+"147","ASSOC Abielas-Loniinv-Athyfil",164,113.7,15
+"148","SUBASS Bl-Gymndry-Valesit(Ptilcri)",150,50.7065217391304,46
+"149","%ASSOC Abielas-Oplohor-Rhodalb",75,86.5,7
+"150","SUBASS Bl-Oplohor-Gymndry{Vaccmem)",89,92.4,5
+"151","SUBASS Sx-Oplohor(typic)",96,95.625,8
+"152","%ASSOC Abielas(Tsughet) -Oplohor-Gymndry",113,79.95,10
+"153","ASSOC Piceeng-Oplohor-Athyfil(Tsughet)",117,94.3157894736842,19
+"154","SUBASS Bl-Oplohor-Athyfil(Tsugmer)",98,60.8888888888889,9
+"155","SUBASS Bl-Oplohor-Athyfil(Valesit)",160,97.1590909090909,22
+"156","SUBASS SeBl-Oplohor-Athyfil(Thujpli)",148,63.78125,16
+"157","ASSOC Sxw-Gymndry(Thujpli)",195,68.625,20
+"158","SUBASS Sx-Loniinv-Gymndry(Vibuedu)",241,81.5138888888889,36
+"159","SUBASS Sx-Loniinv-Gymndry(Sambrac)",32,150.5,1
+"160","SUBASS Sxw-Gymndry(Arnica)",214,95.1181818181818,55
+"161","SUBASS Sxw-Gymndry(Ptilcri)",282,76.8186274509804,102
+"162","SUBASS Sxw-Gymndry(Aralnud)",152,62.890625,32
+"163","?ASSOC Piceene-Carescp-Mnium",54,77.75,2
+"164","%ASSOC Piceene-Carescp-Valesit",82,100.5,5
+"165","ASSOC Piceene-Alnuinc-Athyfil",72,87.375,4
+"166","?ASSOC Piceene-Shepcan-Equisci%",37,125,1
+"167","SUBASS Sxw-Equiset-Aulapal(Caredis)",276,42.1190476190476,42
+"168","SUBASS Sxw-Equiset-Aulapal(Hylospl)",287,53.6829268292683,41
+"169","SUBASS Sxw-Equiset-Aulapal(Sphagnu)",247,56.171875,32
+"170","ASSOC Piceene-Equiset-Aulapal",80,67.5,3
+"171","SUBASS Sxw-Calacan(Piceene)",45,63.5,2
+"172","%ASSOC Piceene-Equiset-Thalocc?",123,71.2857142857143,7
+"173","Ws1? ASSOC Sxw(Cw)-Equiset-Athyfil (ICH)",185,59.5263157894737,19
+"174","ASSOC SxlHw-Equiset-Gymndry (ICH-N)",98,91.25,12
+"175","ASSOC SxwBl-Equiset-Gymndry (MS/SBS)",356,65.2285714285714,70
+"176","SUBASS Sxw-Equiset(Loniinv)",273,72.1410256410256,39
+"177","ASSOC SxwBl-Equiset(MS/ICHmk)",370,34.425,80
+"178","ASSOC Piceene-Cornsto-Equiset (IDF)",321,35.8611111111111,54
+"179","SUBASS Sxw-Oplohor-Athyfil",183,73.1578947368421,19
+"180","SUBASS SeBl-Oplohor-Athyfil",162,67.3478260869565,23
+"181","SUBASS Sxw-Oplohor-Athyfil(Ptilcri)",222,89.7535211267606,71
+"182","SUBASS Sxw-Oplohor-Athyfil(Mattstr)",90,110.9,5
+"183","SUBASS Sxw-Oplohor-Athyfil(Dryoexp)",108,101.4375,16
+"184","SUBASS Sx-Oplohor(Cornsto)",44,73,4
+"185","ASSOC Sxl-Oplohor-Drypexp-Mnium",68,79.2222222222222,18
+"186","SUBASS Bl-Oplohor-Gymndry(Ptilcri)",238,84.9622641509434,53
+"187","%ASSOC Pseumen-Piceene-Cornsto-Rubupar",48,96.5,3
+"188","ASSOC Piceene-PseumenCornsto-Aralnud",182,28.3095238095238,21
+"189","%ASSOC Piceene-Acergla-Gymndry",93,85.6,5
+"190","SUBASS SxwFd-Cornsto-Sympalb(Acergla)",176,48.5882352941176,17
+"191","ASSOC Piceene-Pseumen-Ribelac-Pleusch",151,50.2333333333333,15
+"192","ASSOC Piceene-(Pseumen)-Cornsto-Corncan",205,43.4074074074074,27
+"193","ASSOC Piceene-(Pseumen)-Cornsto-Ribelac",198,33.6379310344828,29
+"194","SUBASS SxFd-Sympalb-Aralnud",101,44.5555555555556,9
+"195","?ASSOC Piceene-Calarub-Hylospl",40,134,1
+"196","SUBASS FdSxw-Rubupar(Poputre)",107,145.111111111111,9
+"197","SUBASS FdSxw-Rubupar(Petafri)",99,159,3
+"198","SUBASS FdSxw-Rubupar(Corycor) (SBSmh)",135,96.1923076923077,13
+"199","SUBASS FdSxw-Rubupar(Lathnev)",82,63.8333333333333,9
+"200","SUBASS FdSxw-Rubupar(Proshoo)",77,126.75,8
+"201","SUBASS FdSxw-Rubupar(Strelan)",72,90.25,4
+"202","SUBASS FdSxw-Rubupar(Calarub)",71,156,2
+"203","SUBASS FdSxw-Rubupar(Pleusch)",107,104.318181818182,11
+"204","SUBASS Sx-Oplohor(Pseumen)",153,67.195652173913,23
+"205","SUBASS Sx-Betula-Oplohor(Corycor)",108,100.416666666667,6
+"206","%ASSOC Piceene-Rosaaci-Carecon",81,96.3333333333333,6
+"207","%ASSOC Piceene-Rosaaci-Aralnud",103,110.166666666667,6
+"208","ASSOC SxwFd-Corncan-Pleusch (MSdk)",158,57.02,25
+"209","ASSOC Pseumen-Piceene-Paximyr",169,105.884615384615,26
+"210","ASSOC Pseumen-Piceene-Ptilcri",195,64.5161290322581,31
+"211","%ASSOC Piceene-Pseumen-Oryzasp-Geocliv",97,99.25,6
+"212","SUBASS SxwFd-Rhyttri(Rhyttri)",54,74.625,4
+"213","SUBASS SxwFd-Rhyttri(Oryzasp)",183,69.25,36
+"214","SUBASS FdSx-Calarub(Petafri)",127,95.8611111111111,18
+"215","SUBASS FdSx-Calarub(Vaccmyl)",170,84.4615384615385,39
+"216","SUBASS Sxw-Orthsec-Pleusch(Shepcan)",131,48.9090909090909,22
+"217","SUBASS Sxw-Orthsec-Pleusch(typic)",82,43.95,10
+"218","SUBASS Sxw-Orthsec-Pleusch(Rhytrob)",105,40.21875,16
+"219","?ASSOC Piceene-Shepcan-Linnbor?",32,116.5,1
+"220","%ASSOC Piceene-Pleusch-Brachyt",115,78.5,8
+"221","%ASSOC Piceene-Spirdou-Gymndry",101,85.5,6
+"222","%ASSOC Piceene-Spirdou-Rosaaci",70,126.2,5
+"223","?ASSOC Piceene-Spirdou-Sphagnu",70,91.3333333333333,3
+"224","?ASSOC Piceene-Loniinv-Calamag%",52,52.5,3
+"225","?ASSOC Piceene-Spirbet-Aulapal%",89,162.5,3
+"226","?ASSOC Piceene-Alnuinc-Loniinv?",55,91.75,2
+"227","?ASSOC Pseumen-Abielas-Vaccmem",75,81.5,3
+"228","SUBASS Cw-Paximyr-Vaccovl(Shepcan)",52,89.5,2
+"229","SUBASS Cw-Paximyr-Vaccovl(Vaccmyl)",46,105.333333333333,3
+"230","SUBASS Sxw-Betunan-Pleusch(Empenig)",78,81.2,5
+"231","SUBASS Sxw-Betunan-Pleusch(Hylospl)",116,61.1923076923077,13
+"232","SUBASS Sxw-Betunan-Pleusch(Salix)",80,102,3
+"233","SUBASS Sxw-Betunan-Pleusch(Aulapal)",35,168,1
+"234","SUBASS Sxw-Betunan-Pleusch(typic)",98,59.5,7
+"235","ASSOC Piceene-Spirdou",131,76.6428571428571,14
+"236","ASSOC Piceene-Spirbet-Rosaaci-Pleusch",95,50.6666666666667,9
+"237","ASSOC Piceene-Spirbet-Lathoch-Pleusch",178,69.0333333333333,30
+"238","ASSOC Piceene-Loniinv",281,85.2837837837838,74
+"239","SUBASS SxwBl - Ribelac (typic)",281,38.030303030303,66
+"240","ASSOC Piceene-Abielas-Menzfer-Corncan",228,53.0394736842105,38
+"241","ASSOC SxwBl-Rubupar-Arnica",189,41.1388888888889,18
+"242","ASSOC SxwBl-Ribelac (Rubupar)",156,78.8181818181818,11
+"243","ASSOC Piceene-Vaccmem-Paximyr",145,51.219512195122,41
+"244","SUBASS Sb-Vaccmem-Petafri(Pleusch)",133,59.65625,16
+"245","SUBASS Sb-Vaccmem-Petafri(Spirbet)",150,69.7954545454545,22
+"246","SUBASS Sx-Vaccmem(Ledugro)",52,69.125,4
+"247","SUBASS Sx-Vaccmem(Paximyr)",149,61.3269230769231,26
+"248","SUBASS Sx-Vaccmem(Vacccae)",126,59.7105263157895,19
+"249","SUBASS Sx-Vaccmem(Petafri)",68,105.875,8
+"250","SUBASS Sx-Vaccmem(typic)",242,73.5431034482759,116
+"251","SUBASS Sx-Vaccmem-Vibuedu(Mertpan)",155,74.9318181818182,22
+"252","SUBASS Sx-Vaccmem-Vibuedu(Pseumen)",66,81.9166666666667,6
+"253","SUBASS Sx-Vaccmem-Vibuedu(Shepcan)",131,75.5588235294118,17
+"254","SUBASS Sx-Vaccmem-Vibuedu(Rubupar)",237,79.044776119403,67
+"255","%ASSOC Pinucon-Abielas-Shepcan-Paximyr",60,61.0714285714286,7
+"256","%ASSOC Piceene-Pinucon-Rhodgro-Pleusch",81,83.0833333333333,6
+"257","ASSOC Picemar-Equiset-Hylospl",124,47.6818181818182,11
+"258","ASSOC Picemar-Ledugro-Hylospl",359,48.7727272727273,209
+"259","SUBASS Sb-Vaccmem-Vaccvit(Abielas)",150,67.1290322580645,31
+"260","SUBASS Sb-Vaccmem-Vaccvit(typic)",119,65.72,25
+"261","ASSOC Pinucon-Picemar-Pleusch",146,75.6153846153846,26
+"262","%ASSOC Picegla-Salix-Hylospl",112,28.8125,8
+"263","%ASSOC Picegla-Betunan-Calacan",68,49.6428571428571,7
+"264","ASSOC Picegla-Salix-Empenig",105,56.1,10
+"265","ASSOC Picegla-Saligla-Betunan",197,38.890625,32
+"266","ASSOC Picegla-Pentflo-Equiset",214,28.3269230769231,26
+"267","ASSOC Picegla-Lupiarc-Hylospl",111,38.1388888888889,18
+"268","%ASSOC Picegla-Junicom-Leyminn",63,51,8
+"269","%ASSOC Picegla-Betunan-Cladina",121,9.9375,8
+"270","SUBASS Sw-Ribetri-Equiset(Alnuinc)",250,56.9032258064516,62
+"271","SUBASS Sw-Ribetri-Equiset(typic)",346,56.0174418604651,86
+"272","%ASSOC Picegla-Gymndry-Aralnud",105,87.375,8
+"273","ASSOC Picegla-Rubupub-Hylospl",196,63.2446808510638,47
+"274","%ASSOC Picegla-Ribetri-Mertpan",75,111.3,5
+"275","ASSOC Picegla-Pinucon-Shepcan-Geocliv",159,60.0555555555556,36
+"276","ASSOC Picegla-Shepcan-Leyminn",247,57.4622641509434,53
+"277","ASSOC Picegla-Shepcan-Hylospl",239,45.1649484536082,97
+"278","%ASSOC Picegla-Pinucon-Shepcan-Astecon",64,50.0714285714286,7
+"279","ASSOC Picegla-Vaccvit-Hylospl",227,45.8415841584158,101
+"280","SUBASS Sw-Vaccmem-Hylospl(Vaccvit)",69,67.2142857142857,7
+"281","SUBASS Sw-Vaccmem-Hylospl(typic)",138,62.5294117647059,17
+"282","SUBASS Sw-Vaccmem-Hylospl(Spirbet)",106,59.5454545454545,11
+"283","SUBASS Pl-Arctuva-Cladoni(Pleusch)",144,52.1826923076923,52
+"284","SUBASS Pl-Arctuva-Cladoni(typic)",155,44.9727272727273,55
+"285","%ASSOC Pinucon-Cladoni-Polyjun",115,71.2,5
+"286","%ASSOC Pinucon-Vaccmyl-Cladoni",77,52.4166666666667,6
+"287","%ASSOC Pinucon-Juniper-Oryzops",77,46.5,4
+"288","?ASSOC Pinucon-Racomit",26,34.25,2
+"289","ASSOC Pinucon-Festalt-Stercau",74,38.8,10
+"290","SUBASS Pl-Pleusch-Cladina(Amelaln)",45,70,4
+"291","SUBASS Pl-Pleusch-Cladina(Vaccmyl)",76,69.2857142857143,7
+"292","SUBASS Pl-Pleusch-Cladina(Pyrola)",190,43.6315789473684,57
+"293","?ASSOC Pinucon-Arctuva-Dicrpol",39,93,2
+"294","SUBASS Pl-Junicom-Arctuva(Linnbor)",64,71.5,3
+"295","SUBASS Pl-Junicom-Arctuva(Vacccae)",47,68.75,2
+"296","ASSOC Pinucon-Vaccmem-Ptilcri",111,79.875,12
+"297","ASSOC Pinucon-Shepcan-Calarub-Astecon",138,43.1904761904762,21
+"298","SUBASS Pl-Calarub-Arctuva(Junicom)",78,54.9166666666667,12
+"299","SUBASS Pl-Calarub-Arctuva(Balssag)",24,113,1
+"300","SUBASS Pl-Calarub-Arctuva(Piptpun)",36,111.5,1
+"301","ASSOC Pinucon-Junicom-Calarub-Cladoni",92,46.2222222222222,9
+"302","%ASSOC Pinucon-Shepcan-Linnbor",88,63.1111111111111,9
+"303","ASSOC Pinucon-Junicom-Pleusch",87,65.9523809523809,21
+"304","SUBASS Pl-Calarub-Pleusch(Vaccmyl)",187,73.5,47
+"305","SUBASS Pl-Calarub-Pleusch(Linnbor)",62,58.5,4
+"306","SUBASS Pl-Calarub-Pleusch(Arnicor)",214,76.8157894736842,38
+"307","ASSOC Pinucon-Junicom-Arctuva",111,31.8636363636364,11
+"308","ASSOC BlPa - Arctuva",87,40.75,4
+"309","%ASSOC Pinucon-Ledugro-Vaccmyl",67,140.75,4
+"310","SUBASS Pl-Vaccmem-Cladoni(typic)",138,42.9761904761905,21
+"311","SUBASS Pl-Vaccmem-Cladoni(Hylospl)?",72,131.75,2
+"312","ASSOC Pinucon-Vaccmem-Cladina",91,44,13
+"313","ASSOC Pinucon-Vaccmem-Vaccmyl",149,71.18,25
+"314","ASSOC Sxw-Arnica-Calarub (MSdw)",98,46.85,10
+"315","SUBASS Sxw-Paximyr-Pleusch(Pseumen)",148,49.0652173913044,23
+"316","SUBASS Sxw-Paximyr-Pleusch(Lariocc)",125,71.1470588235294,17
+"317","SUBASS Sxw-Paximyr-Pleusch(typic)",203,44.2025316455696,79
+"318","SUBASS PlSxw-Rhodneo-Vaccsco (Lupiarc)",48,57.2,5
+"319","SUBASS PlSxw-Rhodneo-Vaccsco (Empenig)",85,60.0714285714286,7
+"320","SUBASS PlSxw-Rhodneo-Vaccsco (Pleusch)",111,51.5192307692308,26
+"321","SUBASS SxwBl-Rhodneo-Vaccsco (x Rubuped)",89,116.428571428571,7
+"322","SUBASS SxwBl-Rhodneo-Vaccsco (Corncan)",200,96.5833333333333,24
+"323","SUBASS SeBl-Rhodneo-Vaccsco (Se)",103,69.375,12
+"324","%ASSOC Pinucon-Shepcan-Dicranu",39,57.9,5
+"325","?ASSOC Pinucon-Abielas-Arctuva-Dicranu?",16,73,1
+"326","ASSOC Pl(FdLw)-Calarub",153,39.453125,32
+"327","ASSOC Pinucon-Rhodalb-Calarub-Pleusch",146,51.5588235294118,17
+"328","ASSOC Pl-Calarub-Vaccsco-Arctuva",137,56.8965517241379,29
+"329","SUBASS Pl-Calarub-Vaccsco(typic)",98,45.3,10
+"330","SUBASS Pl-Calarub-Vaccsco(Pleusch)",108,54.6521739130435,23
+"331","SUBASS Pl-Calarub-Vaccsco(Eurycon)",75,56,4
+"332","SUBASS Pl-Calarub-Vaccsco-Pleusch(Abielas) (MSxk1)",139,43.32,25
+"333","SUBASS Pl-Calarub-Vaccsco-Pleusch(Corncan)(MSxk2)",149,63.9807692307692,26
+"334","SUBASS Pl-Calarub-Vaccsco-Pleusch(Junicom)(MSxk3)",139,57.12,25
+"335","ASSOC Pinucon-Junicom-Calarub",201,34.3235294117647,34
+"336","ASSOC Pl(Lw)-Calarub-Vaccsco",148,52.28,25
+"337","SUBASS Pl-Vaccsco-Cladoni(Junicom-typic)",132,25.6071428571429,14
+"338","SUBASS Pl-Vaccsco-Cladoni(Arctuva)",73,27.2272727272727,11
+"339","SUBASS Pl-Vaccsco-Cladoni(Empenig)",137,33.078947368421,38
+"340","SUBASS Pl-Vaccsco-Cladoni(Racomit)",58,24.9,5
+"341","SUBASS Pl-Vaccsco-Pleusch(Empenig)",179,41.3863636363636,66
+"342","SUBASS Pl-Vaccsco-Pleusch(Abielas)",130,40.2391304347826,23
+"343","ASSOC Pl(Pa)-Junicom-Shepcan",120,32.7857142857143,14
+"344","ASSOC Piceene-Empenig-Ptilcri",174,55.0892857142857,28
+"345","?ASSOC Piceene-Rhodgro-Empenig-Aulapal",30,149,1
+"346","?ASSOC Piceene-Vacccae-Empenig-Aulapal",28,106.5,1
+"347","ASSOC Piceene-Empenig-Pleusch-Aulapal",103,57.3888888888889,9
+"348","ASSOC Pinucon-Vaccvit-Cladina",98,43.7222222222222,9
+"349","ASSOC Pl-Vaccvit-Cladina(Empenig)",51,51.0833333333333,6
+"350","ASSOC Pinucon-Arctuva-Vaccvit",211,31.2659574468085,47

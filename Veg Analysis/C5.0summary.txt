@@ -1,0 +1,94 @@
+
+Call:
+C5.0.formula(formula = Class ~ ., data = vegData[, -2], rules = FALSE)
+
+
+C5.0 [Release 2.07 GPL Edition]  	Tue Aug 28 10:02:19 2018
+-------------------------------
+
+Class specified by attribute `outcome'
+
+Read 336 cases (1167 attributes) from undefined.data
+
+Decision tree:
+
+LEYMCIN_MeanCov > 3: ORDER Leymcin (5)
+LEYMCIN_MeanCov <= 3:
+:...HORDJUB_Constancy > 0: ORDER Juncbal-Hordjub (45/1)
+    HORDJUB_Constancy <= 0:
+    :...PUCCNUA_Constancy > 33.33333: ORDER Juncbal-Hordjub (5)
+        PUCCNUA_Constancy <= 33.33333: [S1]
+
+SubTree [S1]
+
+LATHNEV_MeanCov > 0: ORDER Amelaln-Rosaaci (low boreal brushlands) (3)
+LATHNEV_MeanCov <= 0:
+:...ROSAACI_MeanCov > 4: ORDER Amelaln-Rosaaci (low boreal brushlands) (3/1)
+    ROSAACI_MeanCov <= 4:
+    :...DANTINT_MeanCov > 12.5: ORDER Danthon (10)
+        DANTINT_MeanCov <= 12.5:
+        :...DANTSPI_MeanCov > 1: ORDER Danthon (3)
+            DANTSPI_MeanCov <= 1: [S2]
+
+SubTree [S2]
+
+HESPCUR_Constancy > 14.28571: ORDER Hesperus - Achnanthum (20 series) (7)
+HESPCUR_Constancy <= 14.28571:
+:...ARISPUR_Constancy > 50: ORDER Hesperus - Achnanthum (20 series) (4)
+    ARISPUR_Constancy <= 50:
+    :...CALARUB_MeanCov > 6.5: ORDER Calarub-Koelmac (9/1)
+        CALARUB_MeanCov <= 6.5:
+        :...SHEPCAN_MeanCov > 1: ORDER Junicom (7/3)
+            SHEPCAN_MeanCov <= 1:
+            :...JUNICOM_MeanCov > 4: ORDER Junicom (5)
+                JUNICOM_MeanCov <= 4: [S3]
+
+SubTree [S3]
+
+SPORCRY_MeanCov <= 2.333333: ORDER Pseuspi (0-20) (224/8)
+SPORCRY_MeanCov > 2.333333: ORDER Hesperus - Achnanthum (20 series) (6/1)
+
+
+Evaluation on training data (336 cases):
+
+	    Decision Tree   
+	  ----------------  
+	  Size      Errors  
+
+	    14   15( 4.5%)   <<
+
+
+	   (a)   (b)   (c)   (d)   (e)   (f)   (g)   (h)   (i)   (j)   (k)    <-classified as
+	  ----  ----  ----  ----  ----  ----  ----  ----  ----  ----  ----
+	     5                                                                (a): class ORDER Amelaln-Rosaaci (low boreal brushlands)
+	           8                                   3                      (b): class ORDER Calarub-Koelmac
+	                13                                                    (c): class ORDER Danthon
+	                                         1                            (d): class ORDER Descces
+	     1                                                           1    (e): class ORDER Elymtra (low boreal grasslands)
+	                                  16                             2    (f): class ORDER Hesperus - Achnanthum (20 series)
+	                                        49                       2    (g): class ORDER Juncbal-Hordjub
+	           1                                   9                 2    (h): class ORDER Junicom
+	                                                                 1    (i): class ORDER Koelmac
+	                                                           5          (j): class ORDER Leymcin
+	                                   1                           216    (k): class ORDER Pseuspi (0-20)
+
+
+	Attribute usage:
+
+	100.00%	LEYMCIN_MeanCov
+	 98.51%	HORDJUB_Constancy
+	 85.12%	PUCCNUA_Constancy
+	 83.63%	LATHNEV_MeanCov
+	 82.74%	ROSAACI_MeanCov
+	 81.85%	DANTINT_MeanCov
+	 78.87%	DANTSPI_MeanCov
+	 77.98%	HESPCUR_Constancy
+	 75.89%	ARISPUR_Constancy
+	 74.70%	CALARUB_MeanCov
+	 72.02%	SHEPCAN_MeanCov
+	 69.94%	JUNICOM_MeanCov
+	 68.45%	SPORCRY_MeanCov
+
+
+Time: 0.2 secs
+
